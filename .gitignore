@@ -4,3 +4,6 @@ auto
 *.msr
 *.out
 *.toc
+*.bbl
+*.brf
+*.blg
