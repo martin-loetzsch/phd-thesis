@@ -1,0 +1,1572 @@
+\begin{thebibliography}{234}
+\providecommand{\natexlab}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Aherne et~al.(1998)Aherne, Thacker \&
+  Rockett}]{aherne98bhattacharyya}
+Frank Aherne, Neil~A. Thacker \& Peter~I. Rockett (1998).
+\newblock The {B}hattacharyya metric as an absolute similarity measure for
+  frequency coded data.
+\newblock \emph{Kybernetika}, 34(4):363--368.
+
+\bibitem[{Akhtar et~al.(1996)Akhtar, Carpenter \& Tomasello}]{akhtar96role}
+Nameera Akhtar, Malinda Carpenter \& Michael Tomasello (1996).
+\newblock \href{http://dx.doi.org/10.2307/1131837}{The role of discourse
+  novelty in early word learning}.
+\newblock \emph{Child Development}, 67(2):635--645.
+
+\bibitem[{Akhtar \& Montague(1999)}]{akhtar99early}
+Nameera Akhtar \& Lisa Montague (1999).
+\newblock \href{http://dx.doi.org/10.1177/014272379901905703}{Early lexical
+  acquisition: the role of cross-situational learning}.
+\newblock \emph{First Language}, 19(57):347--358.
+
+\bibitem[{Baddeley(1983)}]{baddeley86working-memory}
+Alan~D. Baddeley (1983).
+\newblock \href{http://dx.doi.org/10.1098/rstb.1983.0057}{Working memory}.
+\newblock \emph{Philosophical Transactions of the Royal Society of London.
+  Series B, Biological Sciences (1934-1990)}, 302(1110):311--324.
+
+\bibitem[{Baillie \& Ganascia(2000)}]{baillie00action}
+Jean-Christophe Baillie \& Jean-Gabriel Ganascia (2000).
+\newblock Action categorization from video sequences.
+\newblock In Werner Horn (editor), \emph{Proceedings of the 14th European
+  Conference on Artificial Intelligence (ECAI)}, pp. 643--647. IOS Press,
+  Berlin, Germany.
+
+\bibitem[{Ballard et~al.(1997)Ballard, Hayhoe, Pook \& Rao}]{ballard97deictic}
+Dana~H. Ballard, Mary~M. Hayhoe, Polly~K. Pook \& Rajesh P.~N. Rao (1997).
+\newblock \href{http://dx.doi.org/10.1017/S0140525X97001611}{Deictic codes for
+  the embodiment of cognition}.
+\newblock \emph{Behavioural and Brain Sciences}, 20(4):723--742.
+
+\bibitem[{Baronchelli et~al.(2006)Baronchelli, Felici, Loreto, Caglioti \&
+  Steels}]{baronchelli06sharp}
+Andrea Baronchelli, Maddalena Felici, Vittorio Loreto, Emanuele Caglioti \& Luc
+  Steels (2006).
+\newblock \href{http://dx.doi.org/10.1088/1742-5468/2006/06/P06014}{Sharp
+  transition towards shared vocabularies in multi-agent systems}.
+\newblock \emph{Journal of Statistical Mechanics: Theory and Experiment},
+  P06014.
+
+\bibitem[{Barsalou(1999)}]{barsalou99perceptual}
+Lawrence~W. Barsalou (1999).
+\newblock \href{http://dx.doi.org/10.1017/S0140525X99002149}{Perceptual symbol
+  systems}.
+\newblock \emph{Behavioural and Brain Sciences}, 22(4):577--660.
+
+\bibitem[{Belpaeme et~al.(1998)Belpaeme, Steels \&
+  Van~Looveren}]{belpaeme98construction}
+Tony Belpaeme, Luc Steels \& Joris Van~Looveren (1998).
+\newblock \href{http://dx.doi.org/10.1007/3-540-49240-2_1}{The construction and
+  acquisition of visual categories}.
+\newblock In \emph{EWLR-6: Proceedings of the 6th European Workshop on Learning
+  Robots}, volume 1545 of \emph{Lecture Notes In Computer Science}, pp. 1--12.
+  Springer Verlag.
+
+\bibitem[{Bhattacharyya(1943)}]{bhattacharyya43measure}
+A.~Bhattacharyya (1943).
+\newblock On a measure of divergence between two statistical populations
+  defined by their probability distributions.
+\newblock \emph{Bulletin Calcutta Mathematical Society}, 35:99--110.
+
+\bibitem[{Billard \& Hayes(1999)}]{billard99drama}
+Aude Billard \& Gillian Hayes (1999).
+\newblock \href{http://dx.doi.org/10.1177/105971239900700103}{{D}{R}{A}{M}{A},
+  a connectionist architecture for control and learning in autonomous robots}.
+\newblock \emph{Adaptive Behavior}, 7(1):35--65.
+
+\bibitem[{Bleys et~al.(2009)Bleys, Loetzsch, Spranger \&
+  Steels}]{bleys09grounded}
+Joris Bleys, Martin Loetzsch, Michael Spranger \& Luc Steels (2009).
+\newblock The grounded colour naming game.
+\newblock In \emph{Proceedings Spoken Dialogue and Human-Robot Interaction
+  workshop at the RoMan 2009 conference}.
+
+\bibitem[{Bloom(2000)}]{bloom00how-children}
+Paul Bloom (2000).
+\newblock \emph{How Children Learn the Meanings of Words}.
+\newblock MIT Press.
+
+\bibitem[{Bloom(2001)}]{bloom01precis}
+---{}---{}--- (2001).
+\newblock \href{http://dx.doi.org/10.1017/S0140525X01000139}{Précis of how
+  children learn the meanings of words}.
+\newblock \emph{Behavioral and Brain Sciences}, 24(6):1095--1103.
+
+\bibitem[{Bowerman \& Choi(2001)}]{bowerman01shaping}
+Melissa Bowerman \& Soonja Choi (2001).
+\newblock Shaping meanings for language: Universal and language-specific in the
+  acquisition of spatial semantic categories.
+\newblock In Melissa Bowerman \& Stephen~C. Levinson (editors), \emph{Language
+  Acquisition and Conceptual Development}, pp. 132--158. Cambridge University
+  Press, Cambridge.
+
+\bibitem[{Bowerman \& Levinson(2001)}]{bowerman01language}
+Melissa Bowerman \& Stephen~C. Levinson (editors) (2001).
+\newblock \emph{Language Acquisition and Conceptual Development}.
+\newblock Cambridge University Press, Cambridge.
+
+\bibitem[{Breazeal(2002)}]{breazeal02designing}
+Cynthia Breazeal (2002).
+\newblock \emph{Designing Sociable Robots}.
+\newblock MIT Press.
+
+\bibitem[{Breazeal(2003)}]{breazeal03sociable}
+---{}---{}--- (2003).
+\newblock \href{http://dx.doi.org/10.1016/S0921-8890(02)00373-1}{Toward
+  sociable robots}.
+\newblock \emph{Robotics and Autonomous Systems}, 42(3-4):167--175.
+
+\bibitem[{Briscoe(2002)}]{briscoe02linguistic}
+Ted Briscoe (editor) (2002).
+\newblock \emph{Linguistic Evolution through Language Acquisition: Formal and
+  Computational Models}.
+\newblock Cambridge University Press, Cambridge.
+
+\bibitem[{Brooks(1990)}]{brooks90elephants}
+Rodney~A. Brooks (1990).
+\newblock \href{http://dx.doi.org/10.1016/S0921-8890(05)80025-9}{Elephants
+  don't play chess}.
+\newblock \emph{Robotics and Autonomous Systems}, 6(1-2):3--15.
+
+\bibitem[{Brooks(1991)}]{brooks91representation}
+---{}---{}--- (1991).
+\newblock \href{http://dx.doi.org/10.1016/0004-3702(91)90053-M}{Intelligence
+  without representation}.
+\newblock \emph{Artificial Intelligence}, 47(1-3):139--159.
+
+\bibitem[{Brooks et~al.(1999)Brooks, Breazeal, Marjanovic, Scassellati \&
+  Williamson}]{brooks99cog}
+Rodney~A. Brooks, Cynthia Breazeal, Matthew Marjanovic, Brian Scassellati \&
+  Matthew~M. Williamson (1999).
+\newblock \href{http://dx.doi.org/10.1007/3-540-48834-0_5}{The {C}og project:
+  building a humanoid robot}.
+\newblock In Chrystopher~L. Nehaniv (editor), \emph{Computation for Metaphors,
+  Analogy, and Agents}, volume 1562 of \emph{Lecture Notes in Computer
+  Science}, pp. 52--87. Springer Verlag, Berlin.
+
+\bibitem[{Cangelosi \& Harnad(2002)}]{cangelosi02adaptive}
+Angelo Cangelosi \& Stevan Harnad (2002).
+\newblock \href{http://dx.doi.org/10.1075/eoc.4.1.07can}{The adaptive advantage
+  of symbolic theft over sensorimotor toil: Grounding language in perceptual
+  categories}.
+\newblock \emph{Evolution of Communication}, 4(1):117--142.
+
+\bibitem[{Cangelosi \& Parisi(1998)}]{cangelosi98emergence}
+Angelo Cangelosi \& Domenico Parisi (1998).
+\newblock \href{http://dx.doi.org/10.1080/095400998116512}{The emergence of a
+  `language' in an evolving population of neural networks}.
+\newblock \emph{Connection Science}, 10(2):83--97.
+
+\bibitem[{Cangelosi \& Parisi(2002{\natexlab{a}})}]{cangelosi02computer}
+---{}---{}--- (2002{\natexlab{a}}).
+\newblock Computer simulation: a new scientific approach to the study of
+  language evolution.
+\newblock In Angelo Cangelosi \& Domenico Parisi (editors), \emph{Simulating
+  the Evolution of Language}, pp. 3--28. Springer-Verlag New York, Inc., New
+  York, NY, USA.
+
+\bibitem[{Cangelosi \& Parisi(2002{\natexlab{b}})}]{cangelosi02simulating}
+Angelo Cangelosi \& Domenico Parisi (editors) (2002{\natexlab{b}}).
+\newblock \emph{Simulating the Evolution of Language}.
+\newblock Springer-Verlag New York, Inc., New York, NY, USA.
+
+\bibitem[{Cangelosi et~al.(2006)Cangelosi, Smith \&
+  Smith}]{proceedings-evolang06}
+Angelo Cangelosi, Andrew Smith \& Kenny Smith (editors) (2006).
+\newblock \emph{Proceedings of the 6th International Conference on the
+  Evolution of Language}. World Scientific Publishing, London.
+
+\bibitem[{Carey(1978)}]{carey78child}
+Susan Carey (1978).
+\newblock The child as word learner.
+\newblock In E~Wanner, M~Maratsos, M~Halle, J~Bresnan \& G~Miller (editors),
+  \emph{Linguistic Theory and Psychological Reality}, pp. 264--293. MIT Press,
+  Cambridge, Mass.
+
+\bibitem[{Cassell et~al.(1999)Cassell, Torres \& Prevost}]{cassell99turntaking}
+Justine Cassell, Obed~E. Torres \& Scott Prevost (1999).
+\newblock Turn taking vs. discourse structure: how best to model multimodal
+  conversation.
+\newblock \emph{Machine Conversations}, pp. 143--154.
+
+\bibitem[{Castellano et~al.(2009)Castellano, Fortunato \&
+  Loreto}]{castellano09statistical}
+Claudio Castellano, Santo Fortunato \& Vittorio Loreto (2009).
+\newblock \href{http://dx.doi.org/10.1103/RevModPhys.81.591}{Statistical
+  physics of social dynamics}.
+\newblock \emph{Reviews of Modern Physics}, 81(591):591--646.
+
+\bibitem[{Chella et~al.(2000)Chella, Frixione \&
+  Gaglio}]{chella00understanding}
+Antonio Chella, Marcello Frixione \& Salvatore Gaglio (2000).
+\newblock \href{http://dx.doi.org/10.1016/S0004-3702(00)00048-5}{Understanding
+  dynamic scenes}.
+\newblock \emph{Artificial Intelligence}, 123(1-2):89--123.
+
+\bibitem[{Chella et~al.(2003)Chella, Frixione \& Gaglio}]{chella03anchoring}
+---{}---{}--- (2003).
+\newblock \href{http://dx.doi.org/10.1016/S0921-8890(02)00358-5}{Anchoring
+  symbols to conceptual spaces: the case of dynamic scenarios.}
+\newblock \emph{Robotics and Autonomous Systems}, 43(2-3):175--188.
+
+\bibitem[{Chomsky(1957)}]{chomsky57syntactic-structures}
+Noam Chomsky (1957).
+\newblock \emph{Syntactic Structures}.
+\newblock Mouton, The Hague.
+
+\bibitem[{Chomsky(1965)}]{chomsky65aspects}
+---{}---{}--- (1965).
+\newblock \emph{Aspects of the Theory of Syntax}.
+\newblock MIT Press, Cambridge, MA.
+
+\bibitem[{Chouinard \& Clark(2003)}]{chouinard03adult}
+Michelle~M. Chouinard \& Eve~V. Clark (2003).
+\newblock \href{http://dx.doi.org/10.1017/S0305000903005701}{Adult
+  reformulations of child errors as negative evidence}.
+\newblock \emph{Journal of Child Language}, 30:637--669.
+
+\bibitem[{Christiansen \& Kirby(2003)}]{christiansen03language}
+Morten~H. Christiansen \& Simon Kirby (2003).
+\newblock \href{http://dx.doi.org/10.1016/S1364-6613(03)00136-0}{Language
+  evolution: consensus and controversies}.
+\newblock \emph{Trends in Cognitive Sciences}, 7(7):300--307.
+
+\bibitem[{Clark(1987)}]{clark87principle}
+Eve~V. Clark (1987).
+\newblock The principle of contrast: A constraint on language acquisition.
+\newblock In Brian MacWhinney (editor), \emph{Mechanisms of Language
+  Acquisition}, pp. 1--33. Lawrence Erlbaum Associates.
+
+\bibitem[{Clark(2004)}]{clark04how}
+---{}---{}--- (2004).
+\newblock \href{http://dx.doi.org/10.1016/j.tics.2004.08.012}{How language
+  acquisition builds on cognitive development}.
+\newblock \emph{Trends in Cognitive Science}, 8(10):472--478.
+
+\bibitem[{Clark \& Brennan(1991)}]{clark91grounding}
+Herbert.~H. Clark \& Susan~E. Brennan (1991).
+\newblock Grounding in communication.
+\newblock In Lauren~B. Resnick, John~M. Levine \& Stephanie~D. Teasley
+  (editors), \emph{Perspectives on Socially Shared Cognition}, pp. 127--149.
+  APA Books.
+
+\bibitem[{Colombo et~al.(2003)Colombo, Del~Bimbo \& Valli}]{colombo03visual}
+Carlo Colombo, Alberto Del~Bimbo \& Alessandro Valli (2003).
+\newblock \href{http://dx.doi.org/10.1109/TSMCB.2003.814281}{Visual capture and
+  understanding of hand pointing actions in a 3-{D} environment}.
+\newblock \emph{IEEE Transactions on Systems, Man, and Cybernetics, Part B:
+  Cybernetics}, 3(4):677--686.
+
+\bibitem[{Coradeschi \& Saffiotti(2003)}]{coradeschi03anchoring}
+Silvia Coradeschi \& Alessandro Saffiotti (2003).
+\newblock \href{http://dx.doi.org/10.1016/S0921-8890(03)00021-6}{An
+  introduction to the anchoring problem}.
+\newblock \emph{Robotics and Autonomous Systems}, 43(2-3):85--96.
+
+\bibitem[{Croft(2000)}]{croft00explaining}
+William Croft (2000).
+\newblock \emph{Explaining Language Change: An Evolutionary Approach}.
+\newblock Longman, Harlow Essex.
+
+\bibitem[{Dall'Asta et~al.(2006)Dall'Asta, Baronchelli, Barrat \&
+  Loreto}]{dallasta06nonequilibrium}
+Luca Dall'Asta, Andrea Baronchelli, Allain Barrat \& Vittorio Loreto (2006).
+\newblock \href{http://dx.doi.org/10.1103/PhysRevE.74.036105}{Nonequilibrium
+  dynamics of language games on complex networks}.
+\newblock \emph{Physical Review E}, 74(3):036105.
+
+\bibitem[{Dautenhahn et~al.(2002)Dautenhahn, Odgen \& Quick}]{dautenhahn02from}
+Kerstin Dautenhahn, Bernard Odgen \& Tom Quick (2002).
+\newblock \href{http://dx.doi.org/10.1016/S1389-0417(02)00050-5}{From embodied
+  to socially embedded agents--implications for interaction-aware robots}.
+\newblock \emph{Cognitive Systems Research}, 3(3):397--428.
+
+\bibitem[{Davidson(2005)}]{davidson05truth}
+Donald Davidson (2005).
+\newblock \emph{Truth, Language, and History}.
+\newblock Oxford University Press.
+
+\bibitem[{De~Beule(2008)}]{debeule08emergence}
+Joachim De~Beule (2008).
+\newblock The emergence of compositionality, hierarchy and recursion in
+  peer-to- peer interactions.
+\newblock In Andrew D.M.~Smith, Kenny Smith \& Ramon Ferrer~i Cancho (editors),
+  \emph{Proceedings of the 7th International Conference on the Evolution of
+  Language (EVOLANG 7)}, pp. 75--82. World Scientific Publishing, Singapore.
+
+\bibitem[{De~Beule \& Bergen(2006)}]{debeule06compositionality}
+Joachim De~Beule \& Benjamin~K. Bergen (2006).
+\newblock On the emergence of compositionality.
+\newblock In Angelo Cangelosi, Andrew Smith \& Kenny Smith (editors),
+  \emph{Proceedings of the 6th International Conference on the Evolution of
+  Language}, pp. 35--42. World Scientific Publishing, London.
+
+\bibitem[{De~Beule et~al.(2006)De~Beule, De~Vylder \&
+  Belpaeme}]{debeule06cross-situational}
+Joachim De~Beule, Bart De~Vylder \& Tony Belpaeme (2006).
+\newblock A cross-situational learning algorithm for damping homonymy in the
+  guessing game.
+\newblock In Luis~Mateus Rocha, Larry~S. Yaeger, Mark~A. Bedau, Dario Floreano,
+  Robert~L. Goldstone \& Allessandro Vespignani (editors), \emph{Artificial
+  Life X: Proceedings of the Tenth International Conference on the Simulation
+  and Synthesis of Living Systems}, pp. 466--472. MIT Press.
+
+\bibitem[{De~Beule \& Steels(2005)}]{debeule05hierarchy}
+Joachim De~Beule \& Luc Steels (2005).
+\newblock \href{http://dx.doi.org/10.1007/11551263_1}{Hierarchy in fluid
+  construction grammar}.
+\newblock In Ulrich Furbach (editor), \emph{KI 2005: Advances In Artificial
+  Intelligence. Proceedings of the 28th German Conference on AI}, volume 3698
+  of \emph{Lecture Notes in Artificial Intelligence}, pp. 1--15. Springer,
+  Koblenz.
+
+\bibitem[{De~Vylder \& Tuyls(2006)}]{devylder06how}
+Bart De~Vylder \& Karl Tuyls (2006).
+\newblock \href{http://dx.doi.org/10.1016/j.jtbi.2006.05.024}{How to reach
+  linguistic consensus: A proof of convergence for the naming game}.
+\newblock \emph{Journal of Theoretical Biology}, 242(4):818--831.
+
+\bibitem[{Deutscher(2005)}]{deutscher05unfolding}
+Guy Deutscher (2005).
+\newblock \emph{The Unfolding of Language: An Evolutionary Tour of Mankind's
+  Greatest Invention}.
+\newblock Metropolitan Books.
+
+\bibitem[{D.M.~Smith et~al.(2008)D.M.~Smith, Smith \& Ferrer~i
+  Cancho}]{proceedings-evolang08}
+Andrew D.M.~Smith, Kenny Smith \& Ramon Ferrer~i Cancho (editors) (2008).
+\newblock \emph{Proceedings of the 7th International Conference on the
+  Evolution of Language (EVOLANG 7)}. World Scientific Publishing, Singapore.
+
+\bibitem[{Dominey \& Boucher(2005)}]{dominey05learning}
+Peter~Ford Dominey \& Jean-David Boucher (2005).
+\newblock \href{http://dx.doi.org/10.1016/j.artint.2005.06.007}{Learning to
+  talk about events from narrated video in a construction grammar framework}.
+\newblock \emph{Artificial Intelligence}, 167(1-2):31--61.
+
+\bibitem[{Edelman(1995)}]{edelman95representation}
+Shimon Edelman (1995).
+\newblock \href{http://dx.doi.org/10.1007/BF00974189}{Representation,
+  similarity, and the chorus of prototypes}.
+\newblock \emph{Minds and Machines}, 5(1):45--68.
+
+\bibitem[{Edelman(1998)}]{edelman98representation}
+---{}---{}--- (1998).
+\newblock \href{http://dx.doi.org/10.1017/S0140525X98001253}{Representation is
+  representation of similarities}.
+\newblock \emph{Behavioral and Brain Sciences}, 21(4):449--467.
+
+\bibitem[{Fong et~al.(2002)Fong, Nourbakhsh \& Dautenhahn}]{fong03survey}
+Terrence Fong, Illah Nourbakhsh \& Kerstin Dautenhahn (2002).
+\newblock \href{http://dx.doi.org/10.1016/S0921-8890(02)00372-X}{A survey of
+  socially interactive robots}.
+\newblock \emph{Robotics and Autonomous Systems}, 42(3-4):143--166.
+
+\bibitem[{Fujita \& Kageyama(1997)}]{fujita97open}
+Masahiro Fujita \& Koji Kageyama (1997).
+\newblock \href{http://dx.doi.org/10.1145/267658.267764}{An open architecture
+  for robot entertainment}.
+\newblock In W.~Lewis Johnson \& Barbara Hayes-Roth (editors),
+  \emph{Proceedings of the First International Conference on Autonomous Agents
+  (Agents'97)}, pp. 435--442. ACM Press, New York.
+
+\bibitem[{Fujita et~al.(2003)Fujita, Kuroki, Ishida \&
+  Doi}]{fujita03autonomous}
+Masahiro Fujita, Yoshihiro Kuroki, Tatsuzo Ishida \& Toshi~T. Doi (2003).
+\newblock \href{http://dx.doi.org/10.1109/IROS.2003.1250752}{Autonomous
+  behavior control architecture of entertainment humanoid robot
+  {S}{D}{R}-4{X}}.
+\newblock In \emph{Proceedings of the IEEE/RSJ International Conference on
+  Intelligent Robots and Systems (IROS '03)}, pp. 960--967, vol. 1. Las Vegas,
+  Nevada.
+
+\bibitem[{Galantucci(2005)}]{galantucci05experimental}
+Bruno Galantucci (2005).
+\newblock \href{http://dx.doi.org/10.1207/s15516709cog0000_34}{An experimental
+  study of the emergence of human communication systems}.
+\newblock \emph{Cognitive Science}, 29(5):737--767.
+
+\bibitem[{Gleitman(1990)}]{gleitman90structural}
+Lila Gleitman (1990).
+\newblock \href{http://dx.doi.org/doi:10.1207/s15327817la0101_2}{The structural
+  sources of verb meanings}.
+\newblock \emph{Language Acquisition}, 1(1):3--55.
+
+\bibitem[{Gärdenfors(2000)}]{gardenfors00conceptual-spaces}
+Peter Gärdenfors (2000).
+\newblock \emph{Conceptual Spaces: The Geometry of Thought}.
+\newblock A Bradford Book. MIT Press.
+
+\bibitem[{Gärdenfors(2005)}]{gardenfors05detachment}
+---{}---{}--- (2005).
+\newblock The detachment of thought.
+\newblock In Christina~E. Erneling \& David~M. Johnson (editors), \emph{The
+  Mind As a Scientific Object: Between Brain and Culture}. Oxford University
+  Press.
+
+\bibitem[{Gärdenfors \& Williams(2001)}]{gardenfors01reasoning}
+Peter Gärdenfors \& Mary-Anne Williams (2001).
+\newblock Reasoning about categories in conceptual spaces.
+\newblock In Bernhard Nebel (editor), \emph{Proceedings of the Seventeenth
+  International Joint Conference on Artificial Intelligence, IJCAI 2001}, pp.
+  385--392. Morgan Kaufmann, Seattle, Washington.
+
+\bibitem[{Haasch et~al.(2005)Haasch, Hofemann, Fritsch \&
+  Sagerer}]{haasch05multi-modal}
+Axel Haasch, Nils Hofemann, Jannik Fritsch \& Gerhard Sagerer (2005).
+\newblock \href{http://dx.doi.org/10.1109/IROS.2005.1545191}{A multi-modal
+  object attention system for a mobile robot}.
+\newblock In \emph{Proceedings of the IEEE/RSJ International Conference on
+  Intelligent Robots and Systems (IROS 2005)}, pp. 2712--2717. Alberta, Canada.
+
+\bibitem[{Hafner \& Kaplan(2005)}]{hafner05learning}
+Verena Hafner \& Frédéric Kaplan (2005).
+\newblock \href{http://dx.doi.org/10.1007/11521082_13}{Learning to interpret
+  pointing gestures: experiments with four-legged autonomous robots}.
+\newblock In Stefan Wermter, Günther Palm \& Mark Elshaw (editors),
+  \emph{Biomimetic Neural Learning for Intelligent Robots}, volume 3575 of
+  \emph{Lecture Notes in Computer Science}, pp. 225--234. Springer.
+
+\bibitem[{Hager \& Belhumeur(1998)}]{hager98efficient}
+Gregory~D. Hager \& Peter~N. Belhumeur (1998).
+\newblock \href{http://dx.doi.org/10.1109/34.722606}{Efficient region tracking
+  with parametric models of geometry and illumination}.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}, 20(10):1025--1039.
+
+\bibitem[{Harnad(1990)}]{harnad90symbolgrounding}
+Stevan Harnad (1990).
+\newblock \href{http://dx.doi.org/10.1016/0167-2789(90)90087-6}{The symbol
+  grounding problem}.
+\newblock \emph{Physica D: Nonlinear Phenomena}, 42(1-3):335--346.
+
+\bibitem[{Harnad(1987)}]{harnad87categorial}
+Stevan~R. Harnad (1987).
+\newblock \emph{Categorical Perception: The Groundwork of Cognition}.
+\newblock Cambridge University Press.
+
+\bibitem[{Hauser et~al.(2002)Hauser, Chomsky \& Fitch}]{hauser02faculty}
+Marc~D. Hauser, Noam Chomsky \& W.~Tecumseh Fitch (2002).
+\newblock \href{http://dx.doi.org/10.1126/science.298.5598.1569}{The faculty of
+  language: what is it, who has it, and how did it evolve?}
+\newblock \emph{Science}, 298(5598):1569--1579.
+
+\bibitem[{Healey et~al.(2007)Healey, Swoboda?, Umata \&
+  King}]{healey07graphical}
+Patrick G.~T. Healey, Nik Swoboda?, Ichiro Umata \& James King (2007).
+\newblock \href{http://dx.doi.org/10.1080/15326900701221363}{Graphical language
+  games: interactional constraints on representational form}.
+\newblock \emph{Cognitive Science}, 31(2):285--309.
+
+\bibitem[{Hurford(1989)}]{hurford89biological}
+James Hurford (1989).
+\newblock Biological evolution of the saussurean sign as a component of the
+  language acquisition device.
+\newblock \emph{Lingua}, 77(2):187--222.
+
+\bibitem[{Hurford(2003)}]{hurford03neural}
+James~R. Hurford (2003).
+\newblock \href{http://dx.doi.org/10.1017/S0140525X03000074}{The neural basis
+  of predicate-argument structure}.
+\newblock \emph{Behavioral and Brain Sciences}, 26(3):261--316.
+
+\bibitem[{Hurford et~al.(1998)Hurford, Studdert-Kennedy \&
+  Knight}]{hurford97approaches}
+James~R. Hurford, Michael Studdert-Kennedy \& Chris Knight (editors) (1998).
+\newblock \emph{Approaches to the Evolution of Language: Social and Cognitive
+  Bases}.
+\newblock Edinburgh University Press, Edinburgh.
+
+\bibitem[{Hutchins \& Hazlehurst(1995)}]{hutchins95how}
+Edwin Hutchins \& Brian Hazlehurst (1995).
+\newblock How to invent a lexicon: The development of shared symbols in
+  interaction.
+\newblock In Nigel Gilbert \& Rosaria Conte (editors), \emph{Artificial
+  Societies: The Computer Simulation of Social Life}, pp. 157--189. UCL Press,
+  London.
+
+\bibitem[{Iizuka \& Ikegami(2003)}]{iizuka03adaptive}
+Hiroyuki Iizuka \& Takashi Ikegami (2003).
+\newblock Adaptive coupling and intersubjectivity in simulated turn-taking
+  behaviour.
+\newblock In \emph{Advances in Artificial Life - Proceedings of the 7th
+  European Conference on Artificial Life (ECAL) 2003}, volume 2801 of
+  \emph{Lecture Notes in Artificial Intelligence}, pp. 336--345. Springer
+  Verlag, Berlin.
+
+\bibitem[{Imai et~al.(2004)Imai, Ono \& Ishiguro}]{imai03physical}
+Michita Imai, Tetsuo Ono \& Hiroshi Ishiguro (2004).
+\newblock \href{http://dx.doi.org/10.1109/TIE.2003.814769}{Physical relation
+  and expression: joint attention for human-robot interaction}.
+\newblock \emph{IEEE Transactions on Industrial Electronics}, 50(4):636--643.
+
+\bibitem[{Ishida et~al.(2001)Ishida, Kuroki, Yamaguchi, Fujita \&
+  Doi}]{ishida01motion}
+Tatsuzo Ishida, Yoshihiro Kuroki, Jinichi Yamaguchi, Masahiro Fujita \&
+  Toshi~T. Doi (2001).
+\newblock \href{http://dx.doi.org/10.1109/IROS.2001.976312}{Motion
+  entertainment by a small humanoid robot based on {O}{P}{E}{N}-{R}}.
+\newblock In \emph{Proceedings of the IEEE/RSJ International Conference on
+  Intelligent Robots and Systems (IROS 2001)}, pp. 1079--1086, vol.2.
+
+\bibitem[{Jüngel et~al.(2004)Jüngel, Hoffmann \&
+  Lötzsch}]{juengel04real-time}
+Matthias Jüngel, Jan Hoffmann \& Martin Lötzsch (2004).
+\newblock A real-time auto-adjusting vision system for robotic soccer.
+\newblock In Daniel Polani, Brett Browning \& Andrea Bonarini (editors),
+  \emph{RoboCup 2003: Robot Soccer World Cup VII}, volume 3020 of \emph{Lecture
+  Notes in Computer Science}, pp. 214--225. Springer.
+
+\bibitem[{Kalman(1960)}]{kalman60new}
+Rudolf~Emil Kalman (1960).
+\newblock A new approach to linear filtering and prediction problems.
+\newblock \emph{Transactions of the ASME-Journal of Basic Engineering},
+  82(1):35--45.
+
+\bibitem[{Kaplan(2005)}]{kaplan05simple}
+Frédéric Kaplan (2005).
+\newblock \href{http://dx.doi.org/10.1080/09540090500177596}{Simple models of
+  distributed co-ordination}.
+\newblock \emph{Connection Science}, 17(3-4):249--270.
+
+\bibitem[{Kaplan \& Hafner(2006)}]{kaplan06challenges}
+Frédéric Kaplan \& Verena~V. Hafner (2006).
+\newblock \href{http://dx.doi.org/10.1075/is.7.2.04kap}{The challenges of joint
+  attention}.
+\newblock \emph{Interaction Studies}, 7(2):129--134.
+
+\bibitem[{Kato \& Billinghurst(1999)}]{kato99marker}
+Hirokazu Kato \& Mark Billinghurst (1999).
+\newblock \href{http://dx.doi.org/10.1109/IWAR.1999.803809}{Marker tracking and
+  {H}{M}{D} calibration for a video-based augmented reality conferencing
+  system}.
+\newblock In \emph{Proceedings of the 2nd IEEE and ACM International Symposium
+  on Augmented Reality (ISAR 99)}, pp. 85--94.
+
+\bibitem[{Kato et~al.(2000)Kato, Billinghurst, Poupyrev, Imamoto \&
+  Tachibana}]{kato00virtual}
+Hirokazu Kato, Mark Billinghurst, Ivan Poupyrev, Kenji Imamoto \& Keihachiro
+  Tachibana (2000).
+\newblock \href{http://dx.doi.org/10.1109/ISAR.2000.880934}{Virtual object
+  manipulation on a table-top {A}{R} environment}.
+\newblock In \emph{Proceedings of the 3rd IEEE and ACM International Symposium
+  on Augmented Reality (ISAR 2000)}, pp. 111--119.
+
+\bibitem[{Ke et~al.(2002)Ke, Minett, Au \& Wang}]{ke02complexity}
+Jinyun Ke, James~W. Minett, Ching-Pong Au \& William S.-Y. Wang (2002).
+\newblock \href{http://dx.doi.org/10.1002/cplx.10030}{Self-organization and
+  selection in the emergence of vocabulary}.
+\newblock \emph{Complexity}, 7(3):41--54.
+
+\bibitem[{Kirby(2001)}]{kirby01spontaneous}
+Simon Kirby (2001).
+\newblock \href{http://dx.doi.org/10.1109/4235.918430}{Spontaneous evolution of
+  linguistic structure-an iterated learning model of the emergence of
+  regularity and irregularity}.
+\newblock \emph{IEEE Transactions on Evolutionary Computation}, 5(2):102--110.
+
+\bibitem[{Kirby(2002)}]{kirby02natural}
+---{}---{}--- (2002).
+\newblock \href{http://dx.doi.org/10.1162/106454602320184248}{Natural language
+  from artificial life}.
+\newblock \emph{Artificial Life}, 8(2):185--215.
+
+\bibitem[{Kitano et~al.(1997)Kitano, Asada, Kuniyoshi, Noda \&
+  Osawa}]{kitano97robocup}
+Hiroaki Kitano, Minoru Asada, Yasuo Kuniyoshi, Itsuki Noda \& Eiichi Osawa
+  (1997).
+\newblock \href{http://dx.doi.org/10.1145/267658.267738}{Robo{C}up: the robot
+  world cup initiative}.
+\newblock In W.~Lewis Johnson \& Barbara Hayes-Roth (editors),
+  \emph{Proceedings of the First International Conference on Autonomous Agents
+  (Agents'97)}, pp. 340--347. ACM Press, New York.
+
+\bibitem[{Kohonen(1982)}]{kohonen82self-organized}
+Teuvo Kohonen (1982).
+\newblock \href{http://dx.doi.org/10.1007/BF00337288}{Self-organized formation
+  of topologically correct feature maps}.
+\newblock \emph{Biological Cybernetics}, 43(1):59--69.
+
+\bibitem[{Kopp(2010)}]{kopp10social}
+Stefan Kopp (2010).
+\newblock \href{http://dx.doi.org/10.1016/j.specom.2010.02.007}{Social
+  resonance and embodied coordination in face-to-face conversation with
+  artificial interlocutors}.
+\newblock \emph{Speech Communication}, 52(6):587--597.
+
+\bibitem[{Kortenkamp et~al.(1996)Kortenkamp, Huber \&
+  Bonasso}]{kortenkamp96recognizing}
+David Kortenkamp, Eric Huber \& R.~Peter Bonasso (1996).
+\newblock Recognizing and interpreting gestures on a mobile robot.
+\newblock In \emph{Proceedings of the 13th National Conference on Artificial
+  Intelligence (AAAI-96)}, pp. 915--921.
+
+\bibitem[{Kosko(1988)}]{kosko88bidirectional}
+Bart Kosko (1988).
+\newblock \href{http://dx.doi.org/10.1109/21.87054}{Bidirectional associative
+  memories}.
+\newblock \emph{IEEE Transactions on Systems, Man and Cybernetics},
+  18(1):49--60.
+
+\bibitem[{Kozima \& Yano(2001)}]{kozima01robot}
+Hideki Kozima \& Hiroyuki Yano (2001).
+\newblock A robot that learns to communicate with human caregivers.
+\newblock In Christian Balkenius~et al (editor), \emph{Proceedings of the First
+  International Workshop on Epigenetic Robotics: Modeling Cognitive Development
+  in Robotic Systems}, volume~85 of \emph{Lund University Cognitive Studies}.
+
+\bibitem[{Kröger et~al.(2009)Kröger, Kopp \& Lowit}]{kroeger09model}
+Bernd~J. Kröger, Stefan Kopp \& Anja Lowit (2009).
+\newblock \href{http://dx.doi.org/10.1007/s10339-009-0351-2}{A model for
+  production, perception, and acquisition of actions in face-to-face
+  communication}.
+\newblock \emph{Cognitive Processing}.
+\newblock In press.
+
+\bibitem[{Lakoff(1987)}]{lakoff87woman}
+George Lakoff (1987).
+\newblock \emph{Women, Fire, and Dangerous Things: What Categories Reveal about
+  the Mind}.
+\newblock The University of Chicago Press, Chicago.
+
+\bibitem[{Landau et~al.(1998)Landau, Smith \& Jones}]{landau98object}
+Barbara Landau, Linda Smith \& Susan Jones (1998).
+\newblock \href{http://dx.doi.org/10.1006/jmla.1997.2533}{Object shape, object
+  function, and object name}.
+\newblock \emph{Journal of Memory and Language}, 38(1):1--27.
+
+\bibitem[{Langacker(2000)}]{langacker00dynamic}
+Ronald~W. Langacker (2000).
+\newblock A dynamic usage-based model.
+\newblock In Michael Barlow \& Suzanne Kemmer (editors), \emph{Usage-Based
+  Models of Language}, pp. 1--63. Chicago University Press, Chicago.
+
+\bibitem[{Levinson(2001)}]{levinson01language}
+Stephen~C. Levinson (2001).
+\newblock Language and mind: Let's get the issues straight!
+\newblock In Melissa Bowerman \& Stephen~C. Levinson (editors), \emph{Language
+  Acquisition and Conceptual Development}, pp. 25--46. Cambridge University
+  Press, Cambridge.
+
+\bibitem[{Lieven(1994)}]{lieven94crosslinguistic}
+Elena Lieven (1994).
+\newblock Crosslinguistic and crosscultural aspects of language addressed to
+  children.
+\newblock In Clare Gallaway \& Brian~J. Richards (editors), \emph{Input and
+  Interaction in Language Acquisition}, pp. 56--73. Cambridge University Press,
+  Cambridge.
+
+\bibitem[{Loetzsch(2012)}]{loetzsch12tools}
+Martin Loetzsch (2012).
+\newblock \href{http://dx.doi.org/10.1007/978-3-642-34120-5_2}{Tools for
+  grammar engineering}.
+\newblock In Luc Steels (editor), \emph{Computational issues in fluid
+  construction grammar}, volume 7249 of \emph{Lecture Notes in Computer
+  Science}, pp. 37--47. Springer.
+
+\bibitem[{Loetzsch et~al.(2009)Loetzsch, Bleys \&
+  Wellens}]{loetzsch09understanding}
+Martin Loetzsch, Joris Bleys \& Pieter Wellens (2009).
+\newblock Understanding the dynamics of complex lisp programs.
+\newblock In \emph{Proceedings of the 2nd European Lisp Symposium}, pp. 59--69.
+  Milano, Italy.
+
+\bibitem[{Loetzsch et~al.(2006)Loetzsch, Risler \& Jüngel}]{loetzsch06xabsl}
+Martin Loetzsch, Max Risler \& Matthias Jüngel (2006).
+\newblock \href{http://dx.doi.org/10.1109/IROS.2006.282605}{{X}{A}{B}{S}{L} -
+  {A} Pragmatic Approach to Behavior Engineering}.
+\newblock In \emph{Proceedings of the {I}{E}{E}{E}/{R}{S}{J} International
+  Conference on Intelligent Robots and Systems ({I}{R}{O}{S} 2006)}, pp.
+  5124--5129. Beijing.
+
+\bibitem[{Loetzsch et~al.(2012)Loetzsch, Spranger \&
+  Steels}]{loetzsch12grounding}
+Martin Loetzsch, Michael Spranger \& Luc Steels (2012).
+\newblock The grounding of object naming and identity.
+\newblock \emph{submitted}.
+
+\bibitem[{Loetzsch et~al.(2008{\natexlab{a}})Loetzsch, van Trijp \&
+  Steels}]{loetzsch08typological}
+Martin Loetzsch, Remi van Trijp \& Luc Steels (2008{\natexlab{a}}).
+\newblock \href{http://dx.doi.org/10.1007/978-3-540-79037-2_7}{Typological and
+  computational investigations of spatial perspective}.
+\newblock In Ipke Wachsmuth \& Günther Knoblich (editors), \emph{Modeling
+  Communication with Robots and Virtual Humans}, volume 4930 of \emph{Lecture
+  Notes in Computer Science}, pp. 125--142. Springer, Berlin.
+
+\bibitem[{Loetzsch et~al.(2008{\natexlab{b}})Loetzsch, Wellens, De~Beule, Bleys
+  \& van Trijp}]{loetzsch08babel2}
+Martin Loetzsch, Pieter Wellens, Joachim De~Beule, Joris Bleys \& Remi van
+  Trijp (2008{\natexlab{b}}).
+\newblock The {B}abel2 manual.
+\newblock Technical Report AI-Memo 01-08, AI-Lab VUB, Brussels, Belgium.
+
+\bibitem[{Loutfy et~al.(2005)Loutfy, Coradeshi \&
+  Saffiotti}]{loutfy05maintaining}
+Amy Loutfy, Silvia Coradeshi \& Alessandro Saffiotti (2005).
+\newblock Maintaining coherent perceptual information using anchoring.
+\newblock In Leslie~Pack Kaelbling \& Alessandro Saffiotti (editors),
+  \emph{Proceedings of the Nineteenth International Joint Conference on
+  Artificial Intelligence, IJCAI 2005}. Professional Book Center, Edinburgh,
+  Scotland, UK.
+
+\bibitem[{Macnamera(1982)}]{macnamara82names}
+John Macnamera (1982).
+\newblock \emph{Names for Things: A Study in Human Learning}.
+\newblock MIT Press.
+
+\bibitem[{Marjanovic et~al.(1996)Marjanovic, Scassellati \&
+  Williamson}]{marjanovic99self-taught}
+Matthew Marjanovic, Brian Scassellati \& Matthew Williamson (1996).
+\newblock Self-taught visually-guided pointing for a humanoid robot.
+\newblock In Pattie Maes, Maja~J. Mataric, Jean-Arcady Meyer, Jordan Pollack \&
+  Stewart~W. Wilson (editors), \emph{From Animals to Animats 4: Proceedings of
+  the Fourth International Conference On Simulation of Adaptive Behavior}, pp.
+  35--44. The MIT Press, Cambridge.
+
+\bibitem[{Markman(1992)}]{markman92constraints}
+Ellen~M. Markman (1992).
+\newblock Constraints on word learning: Speculations about their nature,
+  origins, and domain specificity.
+\newblock In M~Gunnar \& M~Maratsos (editors), \emph{Modularity and Constraints
+  in Language and Cognition: The Minnesota Symposium on Child Psychology},
+  volume~25, pp. 59--101. Erlbaum, Hillsdale, NJ.
+
+\bibitem[{Markman \& Wachtel(1988)}]{markman88childrens}
+Ellen~M. Markman \& Gwyn~F. Wachtel (1988).
+\newblock \href{http://dx.doi.org/10.1016/0010-0285(88)90017-5}{Childrens use
+  of mutual exclusivity to constrain the meanings of words}.
+\newblock \emph{Cognitive Psychology}, 20(2):121--157.
+
+\bibitem[{Marocco \& Nolfi(2007)}]{marocco07emergence}
+Davide Marocco \& Stefano Nolfi (2007).
+\newblock \href{http://dx.doi.org/10.1080/09540090601015067}{Emergence of
+  communication in embodied agents evolved for the ability to solve a
+  collective navigation problem}.
+\newblock \emph{Connection Science}, 19(1):53--74.
+
+\bibitem[{Marr(1982)}]{marr82vision}
+David Marr (1982).
+\newblock \emph{Vision: A Computational Investigation into the Human
+  Representation and Processing of Visual Information}.
+\newblock W. H. Freeman, San Francisco, CA.
+
+\bibitem[{Martin et~al.(2009)Martin, Steege \& Gross}]{martin09estimation}
+Christian Martin, Frank-Florian Steege \& Horst-Michael Gross (2009).
+\newblock \href{http://dx.doi.org/10.1016/j.robot.2009.09.013}{Estimation of
+  pointing poses for visually instructing mobile robots under real world
+  conditions}.
+\newblock \emph{Robotics and Autonomous Systems}, 58(2):174--185.
+
+\bibitem[{Mervis \& Rosch(1981)}]{mervis81categorization}
+Carolyn~B. Mervis \& Eleanor Rosch (1981).
+\newblock
+  \href{http://dx.doi.org/10.1146/annurev.ps.32.020181.000513}{Categorization
+  of natural objects}.
+\newblock \emph{Annual Review of Psychology}, 32(1):89--115.
+
+\bibitem[{Mishkin et~al.(1983)Mishkin, Ungerleider \& Macko}]{mishkin83object}
+Mortimer Mishkin, Leslie~G. Ungerleider \& Kathleen~A. Macko (1983).
+\newblock \href{http://dx.doi.org/10.1016/0166-2236(83)90190-X}{Object vision
+  and spatial vision: two cortical pathways}.
+\newblock \emph{Trends in Neurosciences}, 6:414--417.
+
+\bibitem[{Mitchell(1997)}]{mitchell97machine}
+Tom~M. Mitchell (1997).
+\newblock \emph{Machine Learning}.
+\newblock McGraw-Hill Series in Computer Science. WCB/McGraw-Hill.
+
+\bibitem[{Nagai et~al.(2003)Nagai, Hosada, Morita \&
+  Asada}]{nagai03constructive}
+Yukie Nagai, Koh Hosada, Akio Morita \& Minoru Asada (2003).
+\newblock \href{http://dx.doi.org/10.1080/09540090310001655101}{A constructive
+  model for the development of joint attention}.
+\newblock \emph{Connection Science}, 15(4):211--229.
+
+\bibitem[{Nagasaka et~al.(2004)Nagasaka, Kuroki, Suzuki, Itoh \&
+  Yamaguchi}]{nagasaka04integrated}
+Kenichiro Nagasaka, Yoshihiro Kuroki, Shinya Suzuki, Yoshihiro Itoh \& Jinichi
+  Yamaguchi (2004).
+\newblock \href{http://dx.doi.org/10.1109/ROBOT.2004.1308745}{Integrated motion
+  control for walking, jumping and running on a small bipedal entertainment
+  robot}.
+\newblock In \emph{IEEE International Conference on Robotics and Automation
+  (ICRA '04)}, pp. 3189--3194, vol.4.
+
+\bibitem[{Newell(1980)}]{newell80physical}
+Allen Newell (1980).
+\newblock \href{http://dx.doi.org/10.1207/s15516709cog0402_2}{Physical symbol
+  systems}.
+\newblock \emph{Cognitive Science}, 4(2):135--183.
+
+\bibitem[{Newell \& Simon(1976)}]{newell76computer}
+Allen Newell \& Herbert~A. Simon (1976).
+\newblock \href{http://dx.doi.org/10.1145/360018.360022}{Computer science as
+  empirical inquiry: symbols and search}.
+\newblock \emph{Communications of the ACM}, 19(13):113--126.
+
+\bibitem[{Nickel \& Stiefelhagen(2007)}]{nickel07visual}
+Kai Nickel \& Rainer Stiefelhagen (2007).
+\newblock \href{http://dx.doi.org/10.1016/j.imavis.2005.12.020}{Visual
+  recognition of pointing gestures for human-robot interaction}.
+\newblock \emph{Image and Vision Computing}, 25(12):1875--1884.
+
+\bibitem[{Nolfi(2005)}]{nolfi05emergence}
+Stefano Nolfi (2005).
+\newblock \href{http://dx.doi.org/10.1080/09540090500177554}{Emergence of
+  communication in embodied agents: co-adapting communicative and
+  non-communicative behaviours}.
+\newblock \emph{Connection Science}, 17(3/4).
+
+\bibitem[{Oliphant(1996)}]{oliphant96dilemma}
+Michael Oliphant (1996).
+\newblock \href{http://dx.doi.org/10.1016/0303-2647(95)01543-4}{The dilemma of
+  Saussurean communication}.
+\newblock \emph{Biosystems}, 37(1-2):31--38.
+
+\bibitem[{Oudeyer \& Kaplan(2007)}]{oudeyer07language}
+Pierre-Yves Oudeyer \& Frédéric Kaplan (2007).
+\newblock \href{http://dx.doi.org/10.1007/s10339-006-0158-3}{Language evolution
+  as a Darwinian process: computational studies}.
+\newblock \emph{Cognitive Processing}, 8(1):21--35.
+
+\bibitem[{Parker(1996)}]{parker96algorithms}
+James~R. Parker (1996).
+\newblock \emph{Algorithms for Image Processing and Computer Vision}.
+\newblock John Wiley \& Sons, New York.
+
+\bibitem[{Peirce(1931)}]{peirce31collected}
+Charles~Sanders Peirce (1931).
+\newblock \emph{Collected Papers}, volume I-VIII.
+\newblock Harvard University Press, Cambridge, MA.
+
+\bibitem[{Pfeifer \& Bongard(2006)}]{pfeifer06how}
+Rolf Pfeifer \& Josh~C. Bongard (2006).
+\newblock \emph{How the Body Shapes the Way We Think}.
+\newblock MIT Press, Cambridge, MA.
+
+\bibitem[{Pfeifer \& Scheier(1999)}]{pfeifer99understanding}
+Rolf Pfeifer \& Christian Scheier (1999).
+\newblock \emph{Understanding Intelligence}.
+\newblock MIT Press.
+
+\bibitem[{Piaget(1952)}]{piaget52origins}
+Jean Piaget (1952).
+\newblock \emph{The Origins of Intelligence in Children}.
+\newblock Norton, New York.
+
+\bibitem[{Pinker \& Bloom(1990)}]{pinker90natural}
+Steven Pinker \& Paul Bloom (1990).
+\newblock Natural language and natural selection.
+\newblock \emph{Behavioral and Brain Sciences}, 13(4):707--784.
+
+\bibitem[{Poggio \& Girosi(1990)}]{poggio90networks}
+Tomaso Poggio \& Federico Girosi (1990).
+\newblock \href{http://dx.doi.org/10.1109/5.58326}{Networks for approximation
+  and learning}.
+\newblock \emph{Proceedings of the IEEE}, 78(9):1481--1497.
+
+\bibitem[{Pylyshyn(1989)}]{pylyshyn89role}
+Zenon~W. Pylyshyn (1989).
+\newblock \href{http://dx.doi.org/10.1016/0010-0277(89)90014-0}{The role of
+  location indexes in spatial perception: A sketch of the FINST spatial-index
+  model}.
+\newblock \emph{Cognition}, 32(1):65--97.
+
+\bibitem[{Pylyshyn(2001)}]{pylyshyn01visual}
+---{}---{}--- (2001).
+\newblock \href{http://dx.doi.org/10.1016/S0010-0277(00)00156-6}{Visual
+  indexes, preconceptual objects, and situated vision}.
+\newblock \emph{Cognition}, 80(1):127--158.
+
+\bibitem[{Pérez et~al.(2002)Pérez, Hue, Vermaak \&
+  Gangnet}]{perez02color-based}
+Patrick Pérez, Carine Hue, Jaco Vermaak \& Michael Gangnet (2002).
+\newblock \href{http://dx.doi.org/10.1007/3-540-47969-4_44}{Color-based
+  probabilistic tracking}.
+\newblock In \emph{Proceedings of the 7th European Conference on Computer
+  Vision}, volume 2350 of \emph{Lecture Notes in Computer Science}, pp.
+  661--675. Springer.
+
+\bibitem[{Quine(1960)}]{quine60word}
+Willard Van~Orman Quine (1960).
+\newblock \emph{Word and Object}.
+\newblock MIT Press, Cambridge, MA.
+
+\bibitem[{Rosch \& Mervis(1975)}]{rosch75family-resemblances}
+Eleanor Rosch \& Carolyn~B. Mervis (1975).
+\newblock \href{http://dx.doi.org/10.1016/0010-0285(75)90024-9}{Family
+  resemblances: Studies in the internal structure of categories}.
+\newblock \emph{Cognitive Psychology}, 7(4):573--605.
+
+\bibitem[{Rosch et~al.(1976)Rosch, Mervis, Gray, Johnson \&
+  Boyes-Braem}]{rosch76basic}
+Eleanor Rosch, Carolyn~B. Mervis, Wayne~D. Gray, David~M. Johnson \& Penny
+  Boyes-Braem (1976).
+\newblock \href{http://dx.doi.org/10.1016/0010-0285(76)90013-X}{Basic objects
+  in natural categories}.
+\newblock \emph{Cognitive Psychology}, 8(3):382--439.
+
+\bibitem[{Rosch(1973)}]{rosch73natural}
+Elenora Rosch (1973).
+\newblock \href{http://dx.doi.org/10.1016/0010-0285(73)90017-0}{Natural
+  categories}.
+\newblock \emph{Cognitive Psychology}, 4(3):528--350.
+
+\bibitem[{Russel \& Norvig(1995)}]{russel95artificial}
+Stuart Russel \& Peter Norvig (1995).
+\newblock \emph{Artificial Intelligence, A Modern Approach}.
+\newblock Prentice Hall.
+
+\bibitem[{Röfer(2003)}]{roefer03architecture}
+Thomas Röfer (2003).
+\newblock An architecture for a national robocup team.
+\newblock In Gal~A. Kaminka, Pedro~U. Lima \& Raúl Rojas (editors),
+  \emph{RoboCup 2002: Robot Soccer World Cup VI}, volume 2752 of \emph{Lecture
+  Notes in Artificial Intelligence}, pp. 417--425. Springer.
+
+\bibitem[{Röfer et~al.(2004)Röfer, Brunn, Dahm, Hebbel, Hoffmann, Jüngel,
+  Laue, Lötzsch, Nistico \& Spranger}]{roefer04germanteam}
+Thomas Röfer, Ronnie Brunn, Ingo Dahm, Matthias Hebbel, Jan Hoffmann, Matthias
+  Jüngel, Tim Laue, Martin Lötzsch, Walter Nistico \& Michael Spranger
+  (2004).
+\newblock German{T}eam 2004.
+\newblock In Daniele Nardi, Martin Riedmiller, Claude Sammut \& Jos{\'e}
+  Santos-Victor (editors), \emph{RoboCup 2004: Robot Soccer World Cup VIII
+  Preproceedings}. RoboCup Federation, Lisbon, Portugal.
+\newblock Extended version (299 pages) at http://www.germanteam.org/GT2004.pdf.
+
+\bibitem[{de~Saussure(1967)}]{saussure67cours}
+Ferdinand de~Saussure (1967).
+\newblock \emph{Cours de Linguistique Générale. Édition Critique Préparée
+  par Tulio de Mauro}.
+\newblock Grande Bibliothèque, Paris.
+
+\bibitem[{Scassellati(1999)}]{scassellati99imitation}
+Brian Scassellati (1999).
+\newblock \href{http://dx.doi.org/10.1007/3-540-48834-0_11}{Imitation and
+  mechanisms of joint attention: A developmental structure for building social
+  skills on a humanoid robot}.
+\newblock In Chrystopher~L. Nehaniv (editor), \emph{Computation for Metaphors,
+  Analogy, and Agents}, volume 1562 of \emph{Lecture Notes in Computer
+  Science}, pp. 176--195. Springer Verlag, Berlin.
+
+\bibitem[{Schlesinger \& Parisi(2001)}]{schlesinger01agent-based}
+Matthew Schlesinger \& Domenico Parisi (2001).
+\newblock \href{http://dx.doi.org/10.1006/drev.2000.0520}{The agent-based
+  approach: a new direction for computational models of development}.
+\newblock \emph{Developmental Review}, 21(1):121--146.
+
+\bibitem[{Searle(1980)}]{searle80minds}
+John~R. Searle (1980).
+\newblock \href{http://dx.doi.org/10.1017/S0140525X00005756}{Minds, brains, and
+  programs}.
+\newblock \emph{Behavioral and Brain Sciences}, 3(3):417--457.
+
+\bibitem[{Seyfarth et~al.(1980)Seyfarth, Cheney \& Marler}]{seyfarth80monkey}
+Robert~M. Seyfarth, Dorothy~L. Cheney \& Peter Marler (1980).
+\newblock \href{http://dx.doi.org/10.1126/science.7433999}{Monkey responses to
+  three different alarm calls: evidence of predator classification and semantic
+  communication}.
+\newblock \emph{Science}, 210(4471):801--803.
+
+\bibitem[{Shoham \& Tennenholtz(1997)}]{shoham97emergence}
+Yoav Shoham \& Moshe Tennenholtz (1997).
+\newblock \href{http://dx.doi.org/10.1016/S0004-3702(97)00028-3}{On the
+  emergence of social conventions: modeling, analysis, and simulations}.
+\newblock \emph{Artificial Intelligence}, 94(1-2):139--166.
+
+\bibitem[{Siskind(1995)}]{siskind95grounding}
+Jeffrey~Mark Siskind (1995).
+\newblock \href{http://dx.doi.org/10.1007/BF00849726}{Grounding language in
+  perception}.
+\newblock \emph{Artificial Intelligence Review}, 8(5-6):371--391.
+
+\bibitem[{Siskind(1996)}]{siskind96cross-situational}
+---{}---{}--- (1996).
+\newblock \href{http://dx.doi.org/10.1016/S0010-0277(96)00728-7}{A
+  computational study of cross-situational techniques for learning
+  word-to-meaning mappings}.
+\newblock \emph{Cognition}, 61(1-2):39--91.
+
+\bibitem[{Siskind(2001)}]{siskind01grounding}
+---{}---{}--- (2001).
+\newblock Grounding the lexical semantics of verbs in visual perception using
+  force dynamics and event logic.
+\newblock \emph{Journal of Artificial Intelligence Research}, 15:31--90.
+
+\bibitem[{Smith et~al.(2003)Smith, Kirby \& Brighton}]{smith03iterated}
+Kenny Smith, Simon Kirby \& Henry Brighton (2003).
+\newblock \href{http://dx.doi.org/10.1162/106454603322694825}{Iterated
+  learning: a framework for the emergence of language}.
+\newblock \emph{Artificial Life}, 9(4):371--386.
+
+\bibitem[{Smith et~al.(2006)Smith, Smith, Blythe \&
+  Vogt}]{smith06cross-situational}
+Kenny Smith, Andrew D.~M. Smith, Richard~A. Blythe \& Paul Vogt (2006).
+\newblock \href{http://dx.doi.org/10.1007/11880172_3}{Cross-Situational
+  Learning: A Mathematical Approach}.
+\newblock In Paul Vogt, Yuuya Sugita, Elio Tuci \& Chrystopher Nehaniv
+  (editors), \emph{Symbol Grounding and Beyond: Proceedings of the Third
+  International Workshop on the Emergence and Evolution of Linguistic
+  Communication, {EELC} 2006}, volume 4211 of \emph{Lecture Notes in Computer
+  Science}, pp. 31--44. Springer Verlag, Rome, Italy.
+
+\bibitem[{Smith \& Yu(2008)}]{smith07infants}
+Linda Smith \& Chen Yu (2008).
+\newblock \href{http://dx.doi.org/10.1016/j.cognition.2007.06.010}{Infants
+  rapidly learn word-referent mappings via cross-situational statistics}.
+\newblock \emph{Cognition}, 106(3):1558--1568.
+
+\bibitem[{Smith et~al.(1996)Smith, Jones \& Landau}]{smith96naming}
+Linda~B. Smith, Susan~S. Jones \& Barbara Landau (1996).
+\newblock \href{http://dx.doi.org/10.1016/0010-0277(96)00709-3}{Naming in young
+  children: a dumb attentional mechanism?}
+\newblock \emph{Cognition}, 60(2):143--171.
+
+\bibitem[{Soille(1993)}]{soille02morphological}
+Pierre Soille (1993).
+\newblock \href{http://dx.doi.org/10.1109/83.217222}{Morphological grayscale
+  reconstruction in image analysis: applications and efficient algorithms}.
+\newblock \emph{IEEE Transactions on Image Processing}, 2(2):176--201.
+
+\bibitem[{Spelke(1990)}]{spelke90principles}
+Elizabeth~S. Spelke (1990).
+\newblock \href{http://dx.doi.org/doi:10.1207/s15516709cog1401_3}{Principles of
+  object perception}.
+\newblock \emph{Cognitive Science}, 14(1):29--56.
+
+\bibitem[{Spranger et~al.(2010{\natexlab{a}})Spranger, Loetzsch \&
+  Pauw}]{spranger10open-ended-semantics}
+Michael Spranger, Martin Loetzsch \& Simon Pauw (2010{\natexlab{a}}).
+\newblock \href{http://dx.doi.org/10.3233/978-1-60750-606-5-929}{Open-ended
+  grounded semantics}.
+\newblock In Helder Coelho, Rudi Studer \& Michael Wooldridge (editors),
+  \emph{Proceedings of the 19th European Conference on Artificial Intelligence
+  (ECAI)}, volume 215 of \emph{Frontiers in Artificial Intelligence and
+  Applications}, pp. 929--934. IOS Press, Amsterdam.
+
+\bibitem[{Spranger et~al.(2012{\natexlab{a}})Spranger, Loetzsch \&
+  Steels}]{spranger12perceptual}
+Michael Spranger, Martin Loetzsch \& Luc Steels (2012{\natexlab{a}}).
+\newblock \href{http://dx.doi.org/10.1007/978-1-4614-3064-3_5}{A perceptual
+  system for language game experiments}.
+\newblock In Luc Steels \& Manfred Hild (editors), \emph{Language Grounding in
+  Robots}, pp. 89--110. Springer.
+
+\bibitem[{Spranger et~al.(2010{\natexlab{b}})Spranger, Pauw \&
+  Loetzsch}]{spranger10open-ended}
+Michael Spranger, Simon Pauw \& Martin Loetzsch (2010{\natexlab{b}}).
+\newblock \href{http://dx.doi.org/10.1142/9789814295222_0038}{Open-ended
+  semantics co-evolving with spatial language}.
+\newblock In Andrew~D.M. Smith, Marieke Shouwstra, Bart de~Boer \& Kenny Smith
+  (editors), \emph{Proceedings of the 8th International Conference on the
+  Evolution of Language (EVOLANG 8)}, pp. 297--304. World Scientific.
+
+\bibitem[{Spranger et~al.(2012{\natexlab{b}})Spranger, Pauw, Loetzsch \&
+  Steels}]{spranger12openended}
+Michael Spranger, Simon Pauw, Martin Loetzsch \& Luc Steels
+  (2012{\natexlab{b}}).
+\newblock \href{http://dx.doi.org/10.1007/978-1-4614-3064-3_8}{Open-ended
+  procedural semantics}.
+\newblock In Luc Steels \& Manfred Hild (editors), \emph{Language Grounding in
+  Robots}, pp. 153--172. Springer.
+
+\bibitem[{Steels(1994)}]{steels94alife-roots}
+Luc Steels (1994).
+\newblock The artificial life roots of artificial intelligence.
+\newblock \emph{Artificial Life}, 1(1):89--125.
+
+\bibitem[{Steels(1995)}]{steels95selforganizing}
+---{}---{}--- (1995).
+\newblock A self-organizing spatial vocabulary.
+\newblock \emph{Artificial Life}, 2(3):319--332.
+
+\bibitem[{Steels(1996{\natexlab{a}})}]{steels96emergent}
+---{}---{}--- (1996{\natexlab{a}}).
+\newblock Emergent adaptive lexicons.
+\newblock In Pattie Maes, Maja~J. Mataric, Jean-Arcady Meyer, Jordan Pollack \&
+  Stewart~W. Wilson (editors), \emph{From Animals to Animats 4: Proceedings of
+  the Fourth International Conference On Simulation of Adaptive Behavior}, pp.
+  562--567. The MIT Press, Cambridge.
+
+\bibitem[{Steels(1996{\natexlab{b}})}]{steels96perceptually}
+---{}---{}--- (1996{\natexlab{b}}).
+\newblock Perceptually grounded meaning creation.
+\newblock In Mario Tokoro (editor), \emph{Proceedings of the Second
+  International Conference on Multi-Agent Systems {I}{C}{M}{A}{S}'96}, pp.
+  338--344. AAAI Press, Menlo Park, CA.
+
+\bibitem[{Steels(1997{\natexlab{a}})}]{steels97constructing}
+---{}---{}--- (1997{\natexlab{a}}).
+\newblock \href{http://dx.doi.org/10.1007/3-540-62858-4_68}{Constructing and
+  sharing perceptual distinctions}.
+\newblock In Maarten~W. van Someren \& Gerhard Widmer (editors),
+  \emph{Proceedings of the 9th European Conference on Machine Learning
+  (ECML-97)}, volume 1224 of \emph{Lecture Notes in Computer Science}, pp.
+  4--13. Springer, Prague, Czech Republic.
+
+\bibitem[{Steels(1997{\natexlab{b}})}]{steels97synthetic}
+---{}---{}--- (1997{\natexlab{b}}).
+\newblock The synthetic modeling of language origins.
+\newblock \emph{Evolution of Communication}, 1(1):1--34.
+
+\bibitem[{Steels(1998{\natexlab{a}})}]{steels98origins}
+---{}---{}--- (1998{\natexlab{a}}).
+\newblock \href{http://dx.doi.org/10.1016/S0004-3702(98)00066-6}{The origins of
+  syntax in visually grounded robotic agents}.
+\newblock \emph{Artificial Intelligence}, 103(1-2):133--156.
+
+\bibitem[{Steels(1998{\natexlab{b}})}]{steels98origins-ontologies}
+---{}---{}--- (1998{\natexlab{b}}).
+\newblock \href{http://dx.doi.org/10.1023/A:1010002801935}{The origins of
+  ontologies and communication conventions in multi-agent systems}.
+\newblock \emph{Autonomous Agents and Multi-Agent Systems}, 1(2):169--194.
+
+\bibitem[{Steels(1998{\natexlab{c}})}]{steels98synthesising}
+---{}---{}--- (1998{\natexlab{c}}).
+\newblock Synthesising the origins of language and meaning using co-evolution,
+  self-organisation and level formation.
+\newblock In James~R. Hurford, Michael Studdert-Kennedy \& Chris Knight
+  (editors), \emph{Approaches to the Evolution of Language: Social and
+  Cognitive Bases}, pp. 384--404. Edinburgh University Press, Edinburgh.
+
+\bibitem[{Steels(2000)}]{steels00language}
+---{}---{}--- (2000).
+\newblock \href{http://dx.doi.org/10.1007/3-540-45356-3_2}{Language as a
+  complex adaptive system}.
+\newblock In Marc Schoenauer, Günter Rudolph, Xin Yao, Evelyne Lutton, Juan
+  J.~Merelo Guervós \& Hans-Paul Schwefel (editors), \emph{Parallel Problem
+  Solving from Nature - PPSN VI}, volume 1917 of \emph{Lecture Notes in
+  Computer Science}, pp. 17--26. Springer, Paris, France.
+
+\bibitem[{Steels(2001)}]{steels01language}
+---{}---{}--- (2001).
+\newblock \href{http://dx.doi.org/10.1109/5254.956077}{Language games for
+  autonomous robots}.
+\newblock \emph{IEEE Intelligent Systems}, 16(5):16--22.
+
+\bibitem[{Steels(2002{\natexlab{a}})}]{steels02iterated}
+---{}---{}--- (2002{\natexlab{a}}).
+\newblock Iterated learning versus language games. {T}wo models for cultural
+  language evolution.
+\newblock In Charlotte Hemelrijk (editor), \emph{Proceedings of the
+  International Workshop on Self-Organization and Evolution of Social
+  Behaviour}. University of Zurich, Monte Verita, Ascona, Switzerland.
+
+\bibitem[{Steels(2002{\natexlab{b}})}]{steels02simulating}
+---{}---{}--- (2002{\natexlab{b}}).
+\newblock Simulating the evolution of a grammar for case.
+\newblock In \emph{Proceedings of the Evolution of Language Conference}.
+  Harvard.
+
+\bibitem[{Steels(2003{\natexlab{a}})}]{steels03evolution}
+---{}---{}--- (2003{\natexlab{a}}).
+\newblock \href{http://dx.doi.org/10.1007/3-540-44826-8_8}{The evolution of
+  communication systems by adaptive agents}.
+\newblock In Eduardo Alonso, Daniel Kudenko \& Dimitar Kazakov (editors),
+  \emph{Adaptive Agents and Multi-Agent Systems}, volume 2636 of \emph{Lecture
+  Notes in Computer Science}, pp. 125--140. Springer Verlag, Berlin /
+  Heidelberg.
+
+\bibitem[{Steels(2003{\natexlab{b}})}]{steels03evolving}
+---{}---{}--- (2003{\natexlab{b}}).
+\newblock \href{http://dx.doi.org/10.1016/S1364-6613(03)00129-3}{Evolving
+  grounded communication for robots}.
+\newblock \emph{Trends in Cognitive Sciences}, 7(7):308--312.
+
+\bibitem[{Steels(2003{\natexlab{c}})}]{steels03intelligence}
+---{}---{}--- (2003{\natexlab{c}}).
+\newblock \href{http://dx.doi.org/10.1098/rsta.2003.1257}{Intelligence with
+  representation}.
+\newblock \emph{Philosophical Transactions of the Royal Society A},
+  1811(361):2381--2395.
+
+\bibitem[{Steels(2003{\natexlab{d}})}]{steels03re-entrance}
+---{}---{}--- (2003{\natexlab{d}}).
+\newblock Language re-entrance and the 'inner voice'.
+\newblock \emph{Journal of Consciousness Studies}, 10(4-5):173--185.
+
+\bibitem[{Steels(2005{\natexlab{a}})}]{steels05emergence}
+---{}---{}--- (2005{\natexlab{a}}).
+\newblock \href{http://dx.doi.org/10.1080/09540090500269088}{The emergence and
+  evolution of linguistic structure: from lexical to grammatical communication
+  systems}.
+\newblock \emph{Connection Science}, 17(3/4):213--230.
+
+\bibitem[{Steels(2005{\natexlab{b}})}]{steels05what}
+---{}---{}--- (2005{\natexlab{b}}).
+\newblock What triggers the emergence of grammar?
+\newblock In \emph{AISB'05: Proceedings of Second International Symposium on
+  the Emergence and Evolution of Linguistic Communication (EELC'05)}, pp.
+  143--150. Hatfield, UK.
+
+\bibitem[{Steels(2006{\natexlab{a}})}]{steels06how}
+---{}---{}--- (2006{\natexlab{a}}).
+\newblock How to do experiments in artificial language evolution and why.
+\newblock In Angelo Cangelosi, Andrew Smith \& Kenny Smith (editors),
+  \emph{Proceedings of the 6th International Conference on the Evolution of
+  Language}, pp. 323--332. World Scientific Publishing, London.
+
+\bibitem[{Steels(2006{\natexlab{b}})}]{steels06semiotic}
+---{}---{}--- (2006{\natexlab{b}}).
+\newblock \href{http://dx.doi.org/10.1109/MIS.2006.58}{Semiotic dynamics for
+  embodied agents}.
+\newblock \emph{IEEE Intelligent Systems}, 21(3):32--38.
+
+\bibitem[{Steels(2008)}]{steels08symbol-grounding}
+---{}---{}--- (2008).
+\newblock The symbol grounding problem is solved, so what's next?
+\newblock In Manuel de~Vega, Arthur Glenberg \& Arthur Graesser (editors),
+  \emph{Symbols and Embodiment: Debates on Meaning and Cognition}, pp.
+  223--244. Oxford University Press, Oxford.
+
+\bibitem[{Steels(2012{\natexlab{a}})}]{steels12computational}
+Luc Steels (editor) (2012{\natexlab{a}}).
+\newblock \emph{Computational issues in fluid construction grammar}, volume
+  7249 of \emph{Lecture Notes in Computer Science}.
+\newblock Springer.
+
+\bibitem[{Steels(2012{\natexlab{b}})}]{steels12experiments}
+---{}---{}--- (2012{\natexlab{b}}).
+\newblock \emph{Experiments in Cultural Language Evolution}, volume~3 of
+  \emph{Advances in Interaction Studies}.
+\newblock John Benjamins.
+
+\bibitem[{Steels \& Baillie(2003)}]{steels03shared}
+Luc Steels \& Jean-Christophe Baillie (2003).
+\newblock \href{http://dx.doi.org/10.1016/S0921-8890(02)00357-3}{Shared
+  grounding of event descriptions by autonomous robots}.
+\newblock \emph{Robotics and Autonomous Systems}, 43(2-3):163--173.
+
+\bibitem[{Steels \& Belpaeme(2005)}]{steels05coordinating}
+Luc Steels \& Tony Belpaeme (2005).
+\newblock \href{http://dx.doi.org/10.1017/S0140525X05000087}{Coordinating
+  perceptually grounded categories through language: A case study for colour}.
+\newblock \emph{Behavioral and Brain Sciences}, 28(4):469--489.
+
+\bibitem[{Steels \& Bleys(2005)}]{steels05planning}
+Luc Steels \& Joris Bleys (2005).
+\newblock Planning what to say: Second order semantics for fluid construction
+  grammars.
+\newblock In \emph{Proceedings CAEPIA '05}. Santiago di Compostella.
+
+\bibitem[{Steels \& Brooks(1994)}]{steels94alife-route}
+Luc Steels \& Rodney~A. Brooks (editors) (1994).
+\newblock \emph{The `Artificial Life' Route to Artificial Intelligence:
+  Building Embodied, Situated Agents}.
+\newblock Lawrence Erlbaum Ass, New Haven.
+
+\bibitem[{Steels \& De~Beule(2006)}]{steels06unify}
+Luc Steels \& Joachim De~Beule (2006).
+\newblock \href{http://dx.doi.org/10.1007/11880172_16}{Unify and merge in fluid
+  construction grammar}.
+\newblock In Paul Vogt, Yuuya Sugita, Elio Tuci \& Chrystopher Nehaniv
+  (editors), \emph{Symbol Grounding and Beyond: Proceedings of the Third
+  International Workshop on the Emergence and Evolution of Linguistic
+  Communication, {EELC} 2006}, volume 4211 of \emph{Lecture Notes in Computer
+  Science}, pp. 197--223. Springer Verlag, Rome, Italy.
+
+\bibitem[{Steels et~al.(2005)Steels, De~Beule \& Neubauer}]{steels05linking}
+Luc Steels, Joachim De~Beule \& Nicolas Neubauer (2005).
+\newblock Linking in fluid construction grammars.
+\newblock In \emph{Proceedings of the 17th Belgium-Netherlands Conference on
+  Artificial Intelligence (BNAIC '05)}, pp. 11--18. Brussels, Belgium.
+
+\bibitem[{Steels \& Kaplan(1998)}]{steels98stochasticity}
+Luc Steels \& Frédéric Kaplan (1998).
+\newblock Stochasticity as a source of innovation in language games.
+\newblock In Christoph Adami, Richard~K. Belew, Hiroaki Kitano \& Charles~E.
+  Taylor (editors), \emph{Proceedings of the Sixth International Conference on
+  Artificial Life}, pp. 368--376. MIT Press.
+
+\bibitem[{Steels \& Kaplan(1999{\natexlab{a}})}]{steels99collective}
+---{}---{}--- (1999{\natexlab{a}}).
+\newblock \href{http://dx.doi.org/10.1007/3-540-48304-7_89}{Collective learning
+  and semiotic dynamics}.
+\newblock In Dario Floreano, Jean-Daniel Nicoud \& Francesco Mondada (editors),
+  \emph{Advances in Artificial Life. Proceedings of the Fifth European
+  Conference, ECAL'99}, volume 1674 of \emph{Lecture Notes in Computer
+  Science}, pp. 679--688. Springer, Lausanne, Switzerland.
+
+\bibitem[{Steels \& Kaplan(1999{\natexlab{b}})}]{steels99situated}
+---{}---{}--- (1999{\natexlab{b}}).
+\newblock Situated grounded word semantics.
+\newblock In Thomas Dean (editor), \emph{Proceedings of the Sixteenth
+  International Joint Conference on Artificial Intelligence (IJCAI'99)}, pp.
+  862--867. Morgan Kaufmann, Stockholm, Sweden.
+
+\bibitem[{Steels \& Kaplan(2002)}]{steels02bootstrapping}
+---{}---{}--- (2002).
+\newblock Bootstrapping grounded word semantics.
+\newblock In Ted Briscoe (editor), \emph{Linguistic Evolution through Language
+  Acquisition: Formal and Computational Models}, pp. 53--73. Cambridge
+  University Press, Cambridge.
+
+\bibitem[{Steels \& Loetzsch(2009)}]{steels09perspective-alignment}
+Luc Steels \& Martin Loetzsch (2009).
+\newblock
+  \href{http://dx.doi.org/doi:10.1093/acprof:oso/9780199554201.003.0006}{Perspective
+  alignment in spatial language}.
+\newblock In Kenny~R. Coventry, Thora Tenbrink \& John.~A Bateman (editors),
+  \emph{Spatial Language and Dialogue}, pp. 70--89. Oxford University Press.
+
+\bibitem[{Steels \& Loetzsch(2010)}]{steels10babel}
+---{}---{}--- (2010).
+\newblock \href{http://dx.doi.org/10.1007/978-3-642-01250-1_20}{Babel: a tool
+  for running experiments on the evolution of language}.
+\newblock In Stefano Nolfi \& Marco Mirolli (editors), \emph{Evolution of
+  Communication and Language in Embodied Agents}, pp. 307--313.
+  Springer-Verlag, Berlin Heidelberg.
+
+\bibitem[{Steels \& Loetzsch(2012)}]{steels12grounded-naming-game}
+---{}---{}--- (2012).
+\newblock The grounded naming game.
+\newblock In Luc Steels (editor), \emph{Experiments in Cultural Language
+  Evolution}, volume~3 of \emph{Advances in Interaction Studies}, pp. 41--59.
+  John Benjamins.
+
+\bibitem[{Steels et~al.(2007)Steels, Loetzsch \& Spranger}]{steels07semiotic}
+Luc Steels, Martin Loetzsch \& Michael Spranger (2007).
+\newblock Semiotic dynamics solves the symbol grounding problem.
+\newblock Available from Nature Precedings.
+
+\bibitem[{Steels et~al.(2012)Steels, Loetzsch \& Spranger}]{steels12sue}
+---{}---{}--- (2012).
+\newblock A boy named sue. the semiotic dynamics of naming and identity.
+\newblock \emph{submitted}.
+
+\bibitem[{Steels \& McIntyre(1998)}]{steels99spatially}
+Luc Steels \& Angus McIntyre (1998).
+\newblock \href{http://dx.doi.org/10.1142/S021952599800020X}{Spatially
+  distributed naming games}.
+\newblock \emph{Advances in Complex Systems}, 1(4):301--323.
+
+\bibitem[{Steels \& Vogt(1997)}]{steels97grounding}
+Luc Steels \& Paul Vogt (1997).
+\newblock Grounding adaptive language games in robotic agents.
+\newblock In Phil Husbands \& Inman Harvey (editors), \emph{Proceedings of the
+  4th European Conference on Artificial Life}, pp. 473--484. The MIT Press,
+  Brighton, U.K.
+
+\bibitem[{Steels \& Wellens(2006)}]{steels06how-grammar}
+Luc Steels \& Pieter Wellens (2006).
+\newblock \href{http://dx.doi.org/10.1007/11880172_7}{How grammar emerges to
+  dampen combinatorial search in parsing}.
+\newblock In Paul Vogt, Yuuya Sugita, Elio Tuci \& Chrystopher Nehaniv
+  (editors), \emph{Symbol Grounding and Beyond: Proceedings of the Third
+  International Workshop on the Emergence and Evolution of Linguistic
+  Communication, {EELC} 2006}, volume 4211 of \emph{Lecture Notes in Computer
+  Science}, pp. 76--88. Springer Verlag, Rome, Italy.
+
+\bibitem[{Strogatz(2001)}]{strogatz01exploring}
+Steven~H. Strogatz (2001).
+\newblock \href{http://dx.doi.org/10.1038/35065725}{Exploring complex
+  networks}.
+\newblock \emph{Nature}, 410:268--276.
+
+\bibitem[{Thelen \& Smith(1994)}]{thelen94dynamic}
+Esther Thelen \& Linda Smith (1994).
+\newblock \emph{A Dynamic Systems Approach to the Development of Cognition and
+  Action}.
+\newblock MIT Press, Cambridge, MA.
+
+\bibitem[{Thórisson(2007)}]{thorisson07integrated}
+Kristinn~R. Thórisson (2007).
+\newblock \href{http://dx.doi.org/10.1007/s11023-007-9055-5}{Integrated A.I.
+  systems}.
+\newblock \emph{Minds and Machines}, 17(1):11--25.
+
+\bibitem[{Tomasello(1995)}]{tomasello95jointattention}
+Michael Tomasello (1995).
+\newblock Joint attention as social cognition.
+\newblock In Chris Moore \& Philip~J. Dunham (editors), \emph{Joint Attention:
+  Its Origins and Role in Development}. Lawrence Erlbaum Associates, Hillsdale,
+  NJ.
+
+\bibitem[{Tomasello(1999)}]{tomasello99cultural}
+---{}---{}--- (1999).
+\newblock \emph{The Cultural Origins of Human Cognition}.
+\newblock Harvard University Press, Harvard.
+
+\bibitem[{Tomasello(2001)}]{tomasello01perceiving}
+---{}---{}--- (2001).
+\newblock Perceiving intentions and learning words in the second year of life.
+\newblock In Melissa Bowerman \& Stephen~C. Levinson (editors), \emph{Language
+  Acquisition and Conceptual Development}, pp. 132--158. Cambridge University
+  Press, Cambridge.
+
+\bibitem[{Tomasello(2003)}]{tomasello03constructing}
+---{}---{}--- (2003).
+\newblock \emph{Constructing a Language. A Usage Based Theory of Language
+  Acquisition}.
+\newblock Harvard University Press.
+
+\bibitem[{Tomasello(2005)}]{tomasello05beyond}
+---{}---{}--- (2005).
+\newblock \href{http://dx.doi.org/10.1515/tlir.2005.22.2-4.183}{Beyond
+  formalities: The case of language acquisition}.
+\newblock \emph{The Linguistic Review}, 22(2-4):183--197.
+
+\bibitem[{Tomasello(2008)}]{tomasello08origins}
+---{}---{}--- (2008).
+\newblock \emph{Origins of Human Communication (Jean Nicod Lectures)}.
+\newblock MIT Press.
+
+\bibitem[{Tomasello et~al.(2005)Tomasello, Carpenter, Call, Behne \&
+  Moll}]{tomasello05understanding}
+Michael Tomasello, Malinda Carpenter, Josep Call, Tanya Behne \& Henrike Moll
+  (2005).
+\newblock \href{http://dx.doi.org/10.1017/S0140525X05000129}{Understanding and
+  sharing intentions: The origins of cultural cognition}.
+\newblock \emph{Behavioral and Brain Sciences}, 28:675--691.
+
+\bibitem[{Tomasello \& Todd(1983)}]{tomasello83joint-attention}
+Michael Tomasello \& Jody Todd (1983).
+\newblock \href{http://dx.doi.org/10.1177/014272378300401202}{Joint attention
+  and lexical acquisition style}.
+\newblock \emph{First Language}, 4(12):197--212.
+
+\bibitem[{Treisman \& Gelade(1980)}]{treisman80feature-integration}
+Anne~M. Treisman \& Garry Gelade (1980).
+\newblock \href{http://dx.doi.org/10.1016/0010-0285(80)90005-5}{A
+  feature-integration theory of attention}.
+\newblock \emph{Cognitive Psychology}, 12(1):97--136.
+
+\bibitem[{van Trijp(2008)}]{vantrijp08emergence}
+Remi van Trijp (2008).
+\newblock The emergence of semantic roles in fluid construction grammar.
+\newblock In Andrew D.M.~Smith, Kenny Smith \& Ramon Ferrer~i Cancho (editors),
+  \emph{Proceedings of the 7th International Conference on the Evolution of
+  Language (EVOLANG 7)}, pp. 346--353. World Scientific Publishing, Singapore.
+
+\bibitem[{Van Den~Broeck(2008)}]{vandenbroeck08constraint-based}
+Wouter Van Den~Broeck (2008).
+\newblock Constraint-based compositional semantics.
+\newblock In Andrew D.M.~Smith, Kenny Smith \& Ramon Ferrer~i Cancho (editors),
+  \emph{Proceedings of the 7th International Conference on the Evolution of
+  Language (EVOLANG 7)}, pp. 338--345. World Scientific Publishing, Singapore.
+
+\bibitem[{Van~Looveren(1999)}]{looveren99multiple}
+Joris Van~Looveren (1999).
+\newblock Multiple word naming games.
+\newblock In \emph{Proceedings of the 11th Belgium-Netherlands Conference on
+  Artificial Intelligence (BNAIC '99)}. Maastricht, the Netherlands.
+
+\bibitem[{Van~Looveren(2000)}]{looveren00analysis}
+---{}---{}--- (2000).
+\newblock An analysis of multiple-word naming games.
+\newblock In \emph{Proceedings of the 12th Belgium-Netherlands Conference on
+  Artificial Intelligence (BNAIC '00)}. De Efteling, Kaatsheuvel, the
+  Netherlands.
+
+\bibitem[{Vinciarelli et~al.(2009)Vinciarelli, Pantic \&
+  Bourlard}]{vinciarelli09social}
+Alessandro Vinciarelli, Maja Pantic \& Hervé Bourlard (2009).
+\newblock \href{http://dx.doi.org/10.1016/j.imavis.2008.11.007}{Social signal
+  processing: {Survey} of an emerging domain}.
+\newblock \emph{Image and Vision Computing}, 27(12):1743--1759.
+
+\bibitem[{Vogt(2002{\natexlab{a}})}]{vogt02physical}
+Paul Vogt (2002{\natexlab{a}}).
+\newblock \href{http://dx.doi.org/10.1016/S1389-0417(02)00051-7}{The physical
+  symbol grounding problem}.
+\newblock \emph{Cognitive Systems Research}, 3(3):429--457.
+
+\bibitem[{Vogt(2002{\natexlab{b}})}]{vogt01bootstrapping}
+---{}---{}--- (2002{\natexlab{b}}).
+\newblock \href{http://dx.doi.org/10.1075/eoc.4.1.06vog}{Bootstrapping grounded
+  symbols by minimal autonomous robots}.
+\newblock \emph{Evolution of Communication}, 4(1):87--116.
+
+\bibitem[{Vogt(2003)}]{vogt03anchoring}
+---{}---{}--- (2003).
+\newblock \href{http://dx.doi.org/10.1016/S0921-8890(02)00353-6}{Anchoring of
+  semiotic symbols}.
+\newblock \emph{Robotics and Autonomous Systems}, 43(2-3):109--120.
+
+\bibitem[{Vogt \& Coumans(2003)}]{vogt03investigating}
+Paul Vogt \& Hans Coumans (2003).
+\newblock Investigating social interaction strategies for bootstrapping lexicon
+  development.
+\newblock \emph{Journal of Artificial Societies and Social Simulation}, 6(1).
+
+\bibitem[{Wagner \& Schmalstieg(2007)}]{wagner07artoolkitplus}
+Daniel Wagner \& Dieter Schmalstieg (2007).
+\newblock {A}{R}{T}ool{K}it{P}lus for pose tracking on mobile devices.
+\newblock In Michael Grabner \& Helmut Grabner (editors), \emph{Computer Vision
+  Winter Workshop (CVWW07)}. St. Lambrecht, Austria.
+
+\bibitem[{Wagner et~al.(2003)Wagner, Reggia, Uriagereka \&
+  Wilkinson}]{wagner03progress}
+Kyle Wagner, James~A. Reggia, Juan Uriagereka \& Gerald~S. Wilkinson (2003).
+\newblock \href{http://dx.doi.org/10.1177/10597123030111003}{Progress in the
+  simulation of emergent communication and language}.
+\newblock \emph{Adaptive Behavior}, 11(1):37--69.
+
+\bibitem[{Wellens \& Loetzsch(2007)}]{wellens07flexible}
+Pieter Wellens \& Martin Loetzsch (2007).
+\newblock Flexible word meaning in embodied agents.
+\newblock In Alberto Acerbi, Davide Marocco \& Paul Vogt (editors),
+  \emph{Proceedings of Social Learning in Embodied Agents, ECAL 2007 Workshop}.
+  Lisbon, Portugal.
+
+\bibitem[{Wellens \& Loetzsch(2012)}]{wellens12multi-dimensional}
+---{}---{}--- (2012).
+\newblock Multi-dimensional meanings in lexicon formation.
+\newblock In Luc Steels (editor), \emph{Experiments in Cultural Language
+  Evolution}, volume~3 of \emph{Advances in Interaction Studies}, pp. 143--166.
+  John Benjamins.
+
+\bibitem[{Wellens et~al.(2008)Wellens, Loetzsch \& Steels}]{wellens08flexible}
+Pieter Wellens, Martin Loetzsch \& Luc Steels (2008).
+\newblock \href{http://dx.doi.org/10.1080/09540090802091966}{Flexible word
+  meaning in embodied agents}.
+\newblock \emph{Connection Science}, 20(2 \& 3):173--191.
+
+\bibitem[{Werner \& Dyer(1992)}]{werner92evolution}
+Gregory~M. Werner \& Michael~G. Dyer (1992).
+\newblock Evolution of communication in artificial organisms.
+\newblock In Christopher~G. Langton, Charles Taylor, J.~Doyne Farmer \& Steen
+  Rasmussen (editors), \emph{Artificial Life II (SFI Studies in the Sciences of
+  Complexity)}, pp. 659--687. Addison Wesley Longman.
+
+\bibitem[{Whorf \& Carroll(1956)}]{whorf56language}
+Benjamin~Lee Whorf \& John~B. Carroll (1956).
+\newblock \emph{Language, Thought, and Reality}.
+\newblock MIT Press.
+
+\bibitem[{Wittgenstein(1967)}]{wittgenstein67philosophische}
+Ludwig Wittgenstein (1967).
+\newblock \emph{Philosophische Untersuchungen}.
+\newblock Suhrkamp, Frankfurt.
+
+\bibitem[{Wooldridge \& Jennings(1995)}]{wooldridge95intelligent}
+Michael Wooldridge \& Nick~R. Jennings (1995).
+\newblock Intelligent agents: theory and practice.
+\newblock \emph{Knowledge Engineering Review}, 10(2):115--152.
+
+\bibitem[{Yilmaz et~al.(2006)Yilmaz, Javed \& Shah}]{yilmaz06object-tracking}
+Alper Yilmaz, Omar Javed \& Mubarak Shah (2006).
+\newblock \href{http://dx.doi.org/10.1145/1177352.1177355}{Object tracking: A
+  survey}.
+\newblock \emph{ACM Computing Surveys}, 38(13):1--45.
+
+\bibitem[{Zadeh(1965)}]{zadeh65fuzzy}
+Lotfi~A. Zadeh (1965).
+\newblock Fuzzy sets.
+\newblock \emph{Information and Control}, 8:338--353.
+
+\bibitem[{Ziemke(1999)}]{ziemke99rethinking}
+Tom Ziemke (1999).
+\newblock Rethinking grounding.
+\newblock In Alenxander Riegler, Markus Peschl \& Astrid~von Stein (editors),
+  \emph{Understanding Representation in the Cognitive Sciences -- Does
+  Representation Need Reality?}, pp. 177--190. Plenum Press, New York.
+
+\end{thebibliography}

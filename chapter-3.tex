@@ -1,0 +1,295 @@
+\setcounter{chapter}{2}
+
+\chapter{Models of lexicon formation}
+\label{c:thesis-overview}
+
+In this thesis we will systematically analyze the performance of
+different classes of lexicon formation models. Starting simple, we
+will confront our agents with more and more challenging communicative
+tasks and each time examine what additional representational
+mechanisms and learning strategies are required to reach communicative
+success and coherence. In doing so, we will follow the increasing
+complexity of models that we laid out in Section
+\ref{s:nature-of-form-meaning-couplings} (page
+\pageref{s:nature-of-form-meaning-couplings}).
+
+In order to be able to evaluate the impact of the additional
+challenges stemming from embodiment and real-word perception, we will
+first investigate lexicon formation in simulated worlds: throughout
+Part \ref{p:II}, agents will be presented with idealized simulated
+perceptions of varying complexity. To set the stage, we will briefly
+review models for the naming of individual objects in Chapter
+\ref{c:naming-game}.  From there on, we discuss strategies for dealing
+with ambiguity that arises from conceptualization, multi-word
+utterances and structured meanings in Chapter \ref{c:gg}. Motivated by
+these results, we introduce a flexible model of word meaning
+representation and learning in Chapter \ref{c:flexible}. 
+
+Part \ref{p:III} then discusses embodied models of lexicon
+formation. We will first introduce the robotic experimental setup with
+its mechanisms for visual perception and social cognition in Chapter
+\ref{c:embodiment}. Then we look at how robots can construct notions
+of object individuality as a prerequisite for aligning sets of proper
+names in Chapter \ref{c:gng}, and how more general categories can be
+grounded trough language games in Chapter
+\ref{c:grounded-categories}. Finally, in Chapter
+\ref{c:flexible-grounded} we apply the model from Chapter
+\ref{c:flexible} to real-word embodiment and
+analyze its performance.\\
+
+
+
+\section{Guessing the meaning of novel words}
+
+Because there is no direct relationship between word forms and
+referents and due to the nature of words as arbitrary relationships
+between meanings and forms, hearers are faced with the challenge of
+guessing the meaning of novel words. When the hearer does not know a
+word (and can not infer its meaning using the other words in the
+utterance and the context), then he non-linguistically signals a
+communicative failure and the speaker will then point to the intended
+referent. Although this pointing will unambiguously establish shared
+reference, the hearer does not know which aspect of the referent is
+covered by the unknown word: it could be its color, its size, or even
+a combination thereof.
+
+The degree of this uncertainty depends on the nature of the
+coupling between meaning and form. When single word forms map to
+single categories that stand for unique referents as a whole, then
+there is no uncertainty for the hearer at all and he just needs to
+associate a novel word to his conceptualization of the individual
+object. But as soon as words refer to categories such as \texttt{red}
+or \texttt{small}, hearers need to infer which category was meant upon
+hearing a novel word. This problem gets multiplied when the language
+game involves multi-word utterances (and when thus it is not clear
+which word covers which part of the meaning) or when word meanings are
+allowed to be structured (a word can refer to single categories or
+combinations of categories, see Section
+\ref{s:nature-of-form-meaning-couplings} on page
+\pageref{s:nature-of-form-meaning-couplings}).
+
+
+The challenge of dealing with this uncertainty is usually linked to
+the problem of \emph{referential indeterminacy} and a thought
+experiment carried out by \cite{quine60word}: he discussed an imagined
+situation in which a field linguist tries to learn a language
+unfamiliar to him from a native speaker. As they walk through a
+forest, they encounter a rabbit and the native points to it and says
+the word ``gavagai''. The linguist then forms the reasonable
+hypothesis that the word means \texttt{rabbit}, but Quine makes point
+that he can not be sure what the meaning of ``gavagai'' is and that
+there is potentially an infinite number of possible meanings: it could
+mean ``Let's go hunting'', ``There will be a storm tonight'', ``dinner'',
+and so on.
+
+
+Children also face the problem of referential uncertainty when
+learning their mother tongue. Nevertheless, they learn words
+extraordinarily quickly, from only a very few or even one
+exposures. This phenomenon is called ``fast-mapping'' and was
+extensively studied by \cite{carey78child}. Although it can take years
+for children to home in to the proper meaning of words in all their
+nuances, children make very good initial guesses about what words
+refer to. In the literature, there is an enormous amount of empirical
+studies showing that children prefer some interpretation of novel
+words over others. For example \cite*{akhtar96role} showed that in a
+object naming task with toy objects, 24-month-old children tend to
+associate unknown words with objects that are novel in the
+context. Similarly, \cite*{smith96naming} demonstrated that
+three-year-old children rely on relative saliency when selecting
+features for learning names for objects with attached parts.
+
+
+Citing these findings, many researchers have concluded that children
+thus must be endowed with (possibly innate) word learning
+\emph{biases} or \emph{constraints} \citep{markman92constraints,
+  gleitman90structural}. In this theory, constraints greatly reduce
+the hypothesis space of possible meanings and only due to that make
+the task of learning a language achievable. For example
+\cite{macnamara82names} proposed the \emph{whole object bias}:
+children assume that a novel label is likely to refer to the whole
+object and not to its parts, substance, or other
+properties. Furthermore, \cite*{landau98object} suggested the
+\emph{shape bias} -- children initially use object shape as the main
+categorization ground and only later on incorporate other properties
+such as its function. And with the \emph{mutual exclusivity
+  constraint} \citep{markman88childrens}, children assume category
+terms are mutually exclusive, i.e. a novel word can not refer to a
+property of an object for which the child already knows a
+word. Similarly, \cite{clark87principle} formulated the
+\emph{principle of contrast} (every two forms contrast in meanings)
+and the \emph{principle of conventionality} (for each meaning, there
+is a conventional form that speakers expect to be used in the language
+community).\\
+
+
+\noindent All these studies clearly show that children indeed consistently
+prefer some interpretations of novel words over others and as we will
+see, implicitly using some of these strategies such as the principle
+of contrast or the mutual exclusivity constraint in our lexicon
+formation experiments will also help to reach coherence in the
+population. There is, however, a debate whether it is necessary to
+assume language specific biases or constraints to explain these
+empirical results or whether they can be the consequence of other,
+possibly more general, cognitive mechanisms.
+
+
+Most prominently, \cite{tomasello03constructing,tomasello99cultural}
+argues that no special mechanisms are needed and that word learning to
+a large extend relies on the children's general ability to understand
+the intentions of their caregivers in naturally occurring social
+interactions \citep{tomasello01perceiving} and in the motivation to
+participate in joint activities and to share psychological states with
+others \citep*{tomasello05understanding}. We share the stance that
+``These findings are consistent with the view that fast mapping
+emerges from a general capacity to learn socially transmitted
+information -- including, but not limited to, the meanings of words''
+\citep[p. 34ff]{bloom00how-children}.
+
+
+Others have explained children's word learning skills with the ability
+to observe statistics in co-occurrences between objects and words, a
+theory called \emph{cross-situational learning}. For example
+\cite{akhtar99early} presented children with novel objects that varied
+in shape and texture. By consistently labelling objects of similar
+properties ``a modi one'', children associated the quality that
+remained constant across trials to the new word. In a more recent
+study, \citep{smith07infants} showed similar effects for associating
+novel words to more holistic concepts such as \texttt{ball} and
+\texttt{dog}.
+
+
+Inspired by this empirical evidence, scholars such as
+\cite{siskind96cross-situational} and \cite*{smith06cross-situational}
+operationalized their understanding of cross-situational learning in
+computational studies on lexicon formation. In this technique, a
+learner initially derives a set of possible \emph{candidate} meanings
+from the context and stores all of them with a novel word. In
+subsequent exposures to the same word in other contexts, the hearer
+eliminates all those meanings that are not consistent with the context
+(i.e in the intersection with the meanings derived from the current
+context) until unambiguous mappings are found. There are, however, a
+number of problems with this approach. Requiring observation of many
+word - context pairs, the time to gain usable word meanings by far
+exceeds the number of exposures that children need on average. Second,
+in order to enumerate all possible meanings of a novel word and for
+using the technique of intersecting meanings across contexts, the
+learners need fully established category systems that do not change,
+which is often not the case when for example robotic agents co-evolve
+their ontologies with lexicons in the learning process. Consequently,
+most computational experiments on cross-situational learning have been
+done in simulated worlds where the environment already provides
+pre-conceptualized atomic meanings that are shared between speaker and
+hearer (with exceptions such as in
+\citealp*{debeule06cross-situational}). Third and finally, models of
+cross-situational learning usually consider single-word utterances and
+unstructured word meanings. Scaling to more complex communicative
+challenges as introduced in this thesis has proved to be difficult
+\citep{vogt03investigating}.\\
+
+\noindent In general, we find the notion of a \emph{hypothesis} space that gets
+\emph{pruned} over the course of many interactions problematic. We
+will show in this thesis that lexicon formation models that consider
+word learning as an enumeration and subsequent elimination of
+alternative hypotheses will not scale well with increasing population
+sizes, meaning spaces, and the challenges of embodiment. Instead we
+will argue for models in which learners construct and gradually shape
+word meanings \citep{bowerman01shaping}. The hypothesis is that
+``\dots the use of words in repeated discourse interactions in which
+different perspectives are explicitly contrasted and shared, provide
+the raw material out of which the children of all cultures construct
+the flexible and multi-perspectival -- perhaps even dialogical --
+cognitive representations that give human cognition much of its
+awesome and unique power'' \citep[p. 163]{tomasello99cultural}.
+Although in this view learners also make guesses at the meaning of
+novel words, they are different in nature. Children cannot have at
+hand all the concepts and perspectives that are embodied in the words
+of the language they are learning -- they have to construct them over
+time through language use. ``For example, many young children
+overextend words such as \emph{dog} to cover all four-legged furry
+animals. One way they home in on the adult extension of this word by
+hearing many four-legged furry animals called by other names such as
+\emph{horse} and \emph{cow}'' \citep[pp
+73--74]{tomasello03constructing}.
+
+
+
+\section{Scaling, robustness and the challenge of real-world
+  perception}
+
+
+The second focus of this thesis is on \emph{scaling} and
+\emph{robustness} of lexicon formation models. We will investigate how
+well models perform with increasing communicative challenges and by
+that try to find the boundaries in which they are applicable. Many of
+the models reviewed here only have been tried in ``easy enough''
+environments and tasks and we will systematically analyze under which
+conditions they fail and why. Most importantly, we will test all our
+models with respect to how well they scale with larger population
+sizes. Virtually every model in the literature works properly when the
+number of agents in the population is two, because then each agent is
+part of every interaction and conventions thus become easily
+shared. But whereas many models scale well to small population sizes
+of 5 to 10 agents, they often become impractical for populations of
+100 or 1000 agents due to fundamental shortcomings in the way how
+words and meanings are represented and processed. Similarly, scaling
+with meaning spaces is an issue. We will evaluate population dynamics
+in worlds with increasing number of objects and rising complexity and
+structuredness of (simulated) perceptions.
+
+
+On the other hand, we will argue that under the condition that some
+crucial dynamics are in place, lexicon formation models are robust
+with respect to the particular strategies chosen for invention,
+adoption and alignment. For example, many algorithms have been
+proposed for updating the inventories of agents after an interaction
+based on the outcome of the game, and we will dissect which of them
+are really required to reach success and coherence. \\
+
+
+\noindent Related to scaling and robustness is the issue of the
+influence of real-world perception on lexicon formation models. First
+of all, not providing agents with shared symbolic perceptions adds the
+additional complexity of category formation, which creates new kinds
+of dynamics when ontologies and lexicons are constructed in parallel
+and interdependently. For example, strategies for updating word
+confidences also need to take into account that underlying categories
+also may have shifted their meaning. Or when an interaction fails,
+there is the hard decision to make whether the categories involved
+were inappropriate or whether the word forms were simply not
+conventionalized.
+ 
+Furthermore, embodiment creates other kinds of uncertainties that need
+to be dealt with. Agents can view a scene from different angles,
+lighting conditions may vary and thus the perceptions that two
+different robots have of the same physical object will never be the
+same. Even a single robot will perceive an object differently over the
+course of time due to camera noise, robot motion and general
+uncertainty in computer vision systems. Nevertheless, human concepts,
+such as, for example, the color red, are robust to such influences --
+we will recognize an object as red under very different lighting
+conditions and even subjects with color deficiencies are often able to
+communicate about colors.
+
+Concretely, embodied lexicon formation models need to cope with
+\emph{perceptual deviation}, i.e. that specific continuous features
+(e.g. position, shape, width and height, color information, etc.)
+computed by the vision system for an object differ drastically between
+the perception of speaker and hearer. For example one robot might
+perceive the height of an object as being {\tt 0.72} and the other one
+as {\tt 0.56}. This will inevitably cause each agent to have a
+different notion of a word such as ``high''. We will make the point
+that investigating lexicon formation with real robots leads to more
+robust and realistic models, which in turn also perform better in
+simulated environments.
+
+
+
+
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "thesis"
+%%% End: 

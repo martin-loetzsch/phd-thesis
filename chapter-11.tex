@@ -1,0 +1,468 @@
+
+\setcounter{chapter}{10}
+
+\chapter{Summary \& discussion}
+\label{c:chapter-11}
+
+In this thesis we systematically analyzed the performance of different
+classes of lexicon formation models both in an simulated environment
+and with an embodiment in physical humanoid robots. Starting from
+simple lexicon representations and strategies for language processing,
+learning and alignment, we confronted our agents with increasingly
+more challenging communicative tasks and examined each time what
+additional representational mechanisms and learning strategies were
+required in order to reach communicative success and coherence.
+
+We evaluated each of the models with respect to their alignment
+dynamics and scaling and especially focused on how well the models can
+cope with the challenges of referential uncertainty and real-word
+perception. To allow for a just comparison between models, we tried
+(where possible) to keep most of the parameters and machinery constant
+across all of the experiments. Throughout this thesis, we used the
+same population size, the same language game script, the same
+diagnostics and repair strategies for learning from failed
+interactions, the same performance measures, and the same world
+simulation respectively robotic interaction scenario.
+
+
+
+\section{Word meaning representations and referential uncertainty}
+
+We started our investigations in Part II with a series of experiments
+in which all aspects related to language grounding such as perception,
+categorization and social interaction were scaffolded. Instead, agents
+were interacting in a simulated environment in which objects
+consisted of pre-conceptualized (sets of) symbols such as
+\texttt{object-1}, or \texttt{category-2}. As a consequence, the
+meanings to be expressed were already ``in the world'' and thus were
+also immediately shared by all agents of the population.
+
+~\\
+
+\inparagraph{Individual objects, unstructured meanings, single-word
+  utterances} To set the stage and to introduce the building blocks of
+all language game experiments in this thesis, in Chapter
+\ref{c:naming-game} we briefly introduced the \emph{Naming Game},
+which is the most simple and most studied lexicon formation model in
+the literature. The task in this model is to learn to associate single
+word forms to atomic, unstructured meanings which are provided by a
+shared simulated environment. 
+
+Words are represented as scored mappings between forms and
+meanings. Because different agents can independently invent different
+word forms for the same objects, agents will adopt many of these forms
+and consequently there is a competition between words that share their
+forms (\emph{synonymy}) and alignment mechanisms are needed that
+eliminate competing words. \emph{Lateral inhibition} can be used to
+achieve this, and we showed that (at least for a wide range of values)
+the choice for the actual score update parameters is not at all
+crucial for reaching coherence as long as there is some feedback loop
+that makes sure that a successful use in communication increases the
+likelihood of a word to be used in future interactions.
+
+Referential uncertainty does not play a role because when an agent
+does not know a word form, then pointing will reveal the object, which
+itself then um-ambiguously serves as the meaning to be associated to
+the novel form. Consequently, the model scales very well with
+increasing population size and scales even linearly with the number of
+objects in the world.
+
+~\\
+
+\inparagraph{Categories, unstructured meanings, single-word
+  utterances} Next, in Section \ref{s:sgg-sw-unstructured} we took
+away the scaffold that the wold simulator provides agents with unique
+object identifiers. Instead, perceived objects are characterized by
+sets of categories and therefore \emph{conceptualization} mechanisms
+that find sets of categories that discriminate the topic from the
+other objects in the context need to be added. Production and parsing
+strategies now select from multiple possible conceptualizations of a
+scene and we compared several strategies with respect to the number of
+meanings that are used in production and adoption. We showed that none
+of them has clear advantages, but that it is beneficial when learning
+and alignment mechanisms take alternative paths in the semiotic
+network into account.
+
+In this first category-based experiment we limited word meanings to
+single categories and allowed agents to use only one word per
+utterance. With our chosen word simulation parameters (15 categories,
+10 categories per object, between 2 and 5 objects per scene), this
+means that conceptualization fails in about 45\% of the cases because
+no single category can be found that is solely applicable to the
+topic.
+
+Besides that, referential uncertainty arises to an extend that hearers
+hearing a novel form must pick from potentially many candidate
+categories and due to that, lexicons start containing multiple
+associations from the same form to different meanings (sometimes
+called \emph{homonymy}), which are then later dampened using lateral
+inhibition. This slight increase in complexity already caused agents
+to take significantly longer to reach communicative success and
+coherence, agents enumerated a lot of different mappings in their
+lexicons before they got pruned by alignment, and already this simple
+model does not scale well with increasing number of categories in the
+world.
+
+
+~\\
+
+\inparagraph{Categories, structured meanings, single-word utterances}
+In the next experiment in Section \ref{s:sgg-sw-structured} we allowed
+word forms to be associated to sets of categories while still keeping
+the limitation of one word per utterance. Using structured word
+meanings resulted in 100\% discriminative success because speakers
+could now use multiple categories to distinguish a topic from the
+other objects in the context.
+
+Nevertheless, because with single-word utterances each different
+combination of categories needs to be expressed by a different word
+forms, agents accumulate hundreds of different words in their lexicons
+without reaching any communicative success or coherence, which
+illustrates that single-word utterances for structured meanings is
+obviously a bad strategy.
+
+~\\
+
+
+\inparagraph{Categories, unstructured meanings, multi-word utterances}
+As an intermediate step towards the full complexity of the final
+experiment of Chapter \ref{c:gg}, in Section
+\ref{s:sgg-mw-unstructured} we first analyzed a model with multi-word
+utterances for unstructured meanings. That is, the same word
+representations as in Section \ref{s:sgg-sw-unstructured} are used,
+but production and parsing mechanisms were enabled to deal with
+multi-word utterances.
+
+One additional challenge lies in the recovering from partial
+processing, that is when a speaker only knows words for some parts of
+the utterance or when a hearer only knows meanings for some of the
+words in the utterance. But more importantly, multi-word utterances
+introduce \emph{interdependent alignment dynamics}: how well a
+convention spreads in the population does not only depend on how well
+it was used in previous interactions, but also on the other words that
+it was used with together in the utterance. When an interaction fails,
+the agents can not know which word or words of the utterance was
+responsible for the communicative failure and consequently it can
+happen that well-conventionalized words become punished as part of the
+alignment process. Nevertheless, the gain from being able to
+discriminate in 100 percent of the interactions balances these
+difficulties so that the overall alignment and scaling dynamics are
+similar compared to the model with unstructured word meanings and
+single-word utterances.
+
+
+~\\
+
+
+\inparagraph{Categories, structured meanings, multi-word utterances}
+The full-blown complexity of ``Guessing Game''-like experiments was
+then investigated in Section \ref{s:sgg-mw-structured}, in which
+multi-word utterances were combined with word meanings consisting of
+sets of categories. In addition to the ambiguity of deciding which
+words cover which categories, referential uncertainty drastically
+increases because now there is also ambiguity in \emph{specificity}:
+Upon hearing a novel word, agents need to decide whether the word
+refers to a single category, a combination of categories, or the
+complete meaning as a whole.
+
+As a result of that, agents enumerate large numbers of words with high
+degrees of synonymy and homonymy in their lexicons and that need to be
+eliminated by lateral inhibition in order to reach
+coherence. Alignment is additionally made difficult by the fact that
+the feedback loop from communicative success to the lexicon becomes
+less reliable: In the first 2000 interactions, agents communicate
+successfully although different word meanings were used in up to 8
+percent of the cases, causing the wrong word associations to be
+increased and decreased by lateral inhibition.
+
+Although with the default world simulation parameters and the standard
+population size of 10 agents the overall alignment dynamics look
+similar to the previous experiments (with delayed success and higher
+intermediate lexicon sizes), performance quickly breaks down when
+moving beyond the boundaries of these parameters. We showed that for
+increasing population sizes and for increasing context sizes (which
+increases both the number of alternative conceptualizations and
+therefore referential uncertainty as well as the average number of
+categories and therefore the ambiguity in which parts of meanings
+words cover), success in the game and coherence is reached not at all
+or only after thousands of interactions in which agents do not
+communicate successfully at all. The high variance in performance
+across different experimental runs indicates that agents go through
+extended periods of \emph{random search} until some words start being
+successfully used by a critical fraction of the population.
+
+Furthermore, the lateral inhibition dynamics constitute a bias towards
+unstructured word meanings. Although agents have the capability to
+present and process structured word meanings and although indeed many
+words are initially connected to sets of categories, only words that
+cover single categories survive in the lexicons of the agents, which
+we attributed to the disadvantage of interdependent alignment dynamics
+that words with structured word meanings have.
+
+~\\
+
+
+\inparagraph{Categories, flexible word representations} Finally, in
+Chapter \ref{c:flexible} we introduced a lexicon formation model that
+addresses these shortcomings by capturing uncertainty in the
+representation of word meanings themselves. Instead of having
+competing mappings to different sets of categories for the same word,
+words now have flexible connections to different categories that are
+constantly shaped by language use, which we achieved by keeping an
+\emph{(un)certainty score} for every category in a form-meaning
+association instead of scoring the meanings as a whole. By allowing
+the certainty scores to change, the representation becomes adaptive
+and the need to explicitly enumerate competing hypotheses disappears.
+
+We showed that agents which use such representations and the
+accompanying processing and alignment strategies enjoyed high
+communicative success from early on, with conservatively growing
+lexicons that contain stable structured word meanings. And repeating
+the scaling experiments from the previous chapter, we demonstrated
+that the model easily copes with the same increasing communicative
+challenges that the lateral inhibition base models struggled with. 
+
+We identified two key factors for this drastic increase in
+performance. First, the similarity based lexicon application allows
+agents to communicate successfully even when word meanings are not yet
+conventionalized. Both speakers and hearers are able to ``stretch''
+their existing word meanings to uses that are far away from the actual
+meanings of the words, because for the successful interpretation of an
+utterance it enough that the overall similarity of the words in the
+utterance to the topic is higher than to the other objects in the
+context. And second, the similarity-based alignment mechanisms allow
+agents to gradually refine and shift the meanings of their words to
+better conform future uses, without having to eliminate competing
+hypotheses on word meanings.
+
+
+
+\section{Grounded word meanings and challenges from real-word
+  perception}
+
+In the third part of this thesis we applied the lexicon formation
+models from the previous three chapters to real-world situated
+interactions of two Sony humanoid robots. The key difference to the
+experiments in simulated environment is that the world does not
+provide pre-conceptualized categories anymore, and instead
+distinctions such as small vs. big, red vs blue, thing vs. toy. vs
+teddy bear have to be constructed from the raw sensory experiences of
+the robots, which adds further complexities to the mechanisms for
+constructing and maintaining semiotic networks and which introduces
+new challenges such as perceptual deviation.
+
+Programming robots to play language games about objects in their
+environment is in itself a very difficult but also very interesting
+engineering task and in Chapter \ref{c:embodiment} we documented our
+various state-of-the-art solutions to problems of visual perception,
+object tracking, joint attention and social interaction, their
+integration into a robust whole system and the overall experimental
+setup that allowed us to conduct repeated and controlled embodied
+language games experiments.
+
+~\\
+
+\inparagraph{Grounded object identity, single word utterances} In
+Chapter \ref{c:gng} we then investigated what it takes to extend the
+Naming Game from Chapter \ref{c:naming-game} to our robotic setup. We
+endowed our agents with the ability to capture the invariant
+properties of sensory experiences of objects with prototypes, that is
+points in the sensory space that are applied using a nearest neighbor
+computation and that adapt and shift in order to better capture the
+statistical distributions of visual object features across multiple
+perceptions of the same object.
+
+However, individual physical objects can drastically change their
+appearance, both over time and within the same scene when viewed by
+the two robots from different angles, and as a result agents end up
+establishing multiple prototypes for different ``views'' of the same
+physical object. In order to successfully construct mental
+representations of individual objects (and therefore real proper
+names), additional heuristics are needed. We demonstrated that by
+exploiting temporal-spatial continuity and the lexicon itself as
+sources for associating separate prototypical views of the same
+physical object to an individual, the number of words in the lexicons
+of the agents matched the actual number of distinct physical objects
+in the world.
+
+
+The non-grounded Naming Game is the simplest lexicon formation model
+that can be imagined and therefore proved to be an ``E. coli
+paradigm'' for investigating alignment strategies, mathematical proofs
+of convergence, impact of network structure and so on. Furthermore, it
+has also led to views that proper names are semantically simpler than
+words for kinds of objects (e.g. ``red'' or ``block'') and that they
+might be precursors of compositional communication systems (as for
+example in \citealp{steels05emergence}). Nevertheless, we showed that
+the dynamics of the Grounded Naming Game differ drastically from the
+non-grounded version and that the underlying semantics of proper names
+are much more complex, which suggests that proper names are ``more
+likely to be late developments in the evolution of language. In the
+historical evolution of individual languages, proper names are
+frequently, and perhaps always, derived from definite descriptions, as
+is still obvious from many, such as, \emph{Baker}, \emph{Wheeler},
+\emph{Newcastle}'' \citep[p. 266]{hurford03neural}.
+
+
+
+~\\
+
+\inparagraph{Grounded categories, competing form-meaning mappings}
+Next, in Chapter \ref{c:ggg} we tried to apply the lateral inhibition
+based lexicon formation models from Chapter \ref{c:gg} to our embodied
+setup, which required two changes to the mechanisms for constructing
+and maintaining of semiotic networks: First, agents need to be able to
+construct ontologies of meaningful \emph{perceptual categories} such
+as \texttt{red} and \texttt{small} from their sensory experiences. And
+second, word alignment dynamics need to take into account that each
+agent individually constructs such categories from noisy perceptions
+and thus the success of words in the population also depends on how
+conventionalized the underlying categories are. In order to
+demonstrate that the learning and alignment mechanisms are independent
+from the chosen categorization strategy, we implemented two different
+category representations (one based on discrimination trees and a
+second using prototypes on single sensory channels) and showed that
+the interplay of categories and words indeed works well when
+interlocutors artificially have the same perception of a scene.
+
+
+However, when the scaffold of shared perception is removed, alignment
+dynamics more or less break down. Agents continuously adopt new word
+meanings and thus do not reach stable lexicons and high communicative
+success (maximum 60\% with discrimination trees and 70\% with
+prototypes), which we explained with the high degree of perceptual
+deviation. Differences in the visual perception of physical objects by
+the two interacting agents frequently prevent interlocutors from
+successfully applying already conventionalized word meanings, which in
+turn increases the problem of ``wrong'' feedback from communicative
+success (interactions often fail although very similar categories were
+used and many interactions succeed with very different underlying
+meanings).
+
+
+A lexicon formation model that tries to select from alternative form
+meaning couplings is therefore not applicable to a scenario where
+inconsistent categorization happens as a result of perceptual
+deviation. This also explains the low overall communicative success
+for a population of 5 agents in the Perspective Reversal experiment
+\citep*{steels09perspective-alignment,loetzsch08typological}, which
+had similar word alignment strategies and an embodiment in Sony Aibo
+robots. But more importantly, although also very similar (and even
+improved) word representations and learning mechanisms were used, this
+means that we were not able to reproduce the results of the Talking
+Heads experiment \citep{steels99situated} using our robotic setup. We
+speculate that this is due to the fact that perceptual deviation did
+not play a role in that experiment because the two robotic cameras
+were looking from almost the same angle at objects on a whiteboard and
+thus speaker and hearers always had a very similar perception of a
+scene.
+
+
+~\\
+
+\inparagraph{Grounded categories, flexible word representations} The
+flexible word representations and alignment strategies from Chapter
+\ref{c:flexible} are the only lexicon formation model throughout this
+thesis that could be applied to embodied agents without
+modification. As we showed in the (therefore short) Chapter
+\ref{c:gfwm}, the overall performance and scaling behavior looks
+almost identical to the non-grounded version despite the same levels
+of perceptual deviation as in the previous experiments. High
+communicative success is reached within relatively few interactions,
+and rich word meanings of different specificity emerge that reflect
+the distribution of object properties in the world. This is possible
+because the model is not only able to capture the uncertainty of what
+words mean but also the uncertainty of how to categorize objects
+across different contexts in the word meaning representation itself.
+
+
+~\\
+
+\noindent Many, if not even most experiments in the field of
+artificial language evolution that follow a constructivist cultural
+learning approach (including most of the experiments on the emergence
+of grammatical communication systems or the grounding of richer
+semantics) use some kind of lateral inhibition-based alignment
+strategies and therefore often fail to scale beyond very simple
+communicative tasks. Given our results, we argue that language
+learning should not be considered as an enumeration and subsequent
+elimination of alternative hypotheses but rather as a process in which
+learners construct and gradually shape their conceptual and linguistic
+inventories over time. New members of a linguistic community that try
+to learn the language do not spend years of randomly searching a
+hypothesis space before they start being able to communicate
+successfully. Instead, we acquire simple operational approximations of
+novel linguistic items very quickly and refine them later on over the
+course of repeated interactions.
+
+
+
+
+\section{Acknowledgements}
+
+The research reported here was carried out at the Sony
+Computer Science Laboratories in Paris and Tokyo and at the Artificial
+Intelligence Laboratory Vrije Universiteit Brussel and it was funded
+by the European FP6 project \emph{ECAgents} and the FP7 project
+\emph{ALEAR}. Sincere thanks go to Masahiro Fujita, Hideki Shimamura,
+and their team at Sony CSL Tokyo for allowing us to work with the
+fantastic Sony humanoid robots and their support.
+
+~\\
+
+\noindent The work presented in this thesis could not have been
+carried out without the joint effort of a great team, and I especially
+want to thank three people that who had a substantial part in
+designing and setting up the experiments.
+
+First, I did not enter a new completely field with this thesis but
+could already rely on the extensive body of research by Luc Steels and
+his previous collaborators. Next to teaching me how to program in Lisp
+and of course to organizing funding, in 2007 together we began a
+project of ``deconstructing'' language games that formed a starting
+point for the experiments in Chapter \ref{c:gg}. Furthermore, he was
+deeply involved in the design of the Grounded Naming Game (Chapter
+\ref{c:gng}, \citealp*{steels12grounded-naming-game}).
+
+
+Second, there was a very fruitful and inspiring collaboration with
+Pieter Wellens from the VUB AI lab. Next to many other joint work, we
+developed the machinery for conducting language game experiments that
+is underlying all experiments in this thesis (as part of the Babel2
+framework; \citealp*{loetzsch08babel2,steels10babel}), and we devised
+the flexible word meaning representations and applied them to our the
+robotic setup (Chapters \ref{c:flexible-grounded} and
+\ref{c:flexible},
+\citealp*{wellens08flexible,wellens12multi-dimensional}).
+
+
+And third, all work on the Sony humanoid robots from Chapter
+\ref{c:embodiment} \citep*{spranger12perceptual} was done together
+with Michael Spranger from the Sony CSL Paris. He had a major share in
+developing the visual object tracking system and together we built all
+the machinery for having the robots play language games, conducted
+endless series of interactions, and analyzed the resulting data to
+create the data sets used in this thesis.
+
+
+Moreover, I want to thank all the other colleagues at Sony CSL and the
+VUB AI Lab for great discussions and advice, but more importantly, for
+being a fantastic group to work with (in order of appearance):
+Frederic Kaplan, Verena Hafner, Pierre-Yves Oudeyer, Joachim De Beule,
+Wouter Van den Broeck, Joris Bleys, Vanessa Micelli, Simon Pauw,
+Katrien Beuls, and Katja Gerasymova.
+
+
+Finally, I have to thank the Mathematisch-Naturwissenschaftliche
+Fakultät II of the Humboldt-Universität zu Berlin for setting a strict
+time limit for submitting PhD-theses, which eventually forced me to
+hand in mine.
+
+
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "thesis"
+%%% End: 

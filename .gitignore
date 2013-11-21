@@ -1,0 +1,6 @@
+auto
+*.aux
+*.log
+*.msr
+*.out
+*.toc

@@ -1,0 +1,351 @@
+
+\setcounter{chapter}{9}
+
+\chapter{Flexible word meaning in embodied agents}
+\label{c:flexible-grounded}
+\label{c:gfwm}
+
+In the previous chapter we demonstrated that word alignment strategies
+which rely on competition between alternative word meaning hypotheses
+are not applicable to embodied scenarios in which speakers and hearers
+have substantially different perceptions of the objects in their
+environment. As the final experiment of this thesis, we will now
+tackle this problem by applying the flexible word representations from
+Chapter \ref{c:flexible} to the robotic setup that we used in the last
+3 chapters\footnote{Some parts of this chapter are adapted from
+  \cite*{wellens08flexible}, see also
+  \cite{wellens07flexible,wellens12multi-dimensional}}.
+
+
+\begin{figure}[ht!] 
+  \input{figures/gfwm-scene}
+  \caption{Interval based categorization. On the top, the an example
+    scene as seen through the cameras of the two robots and the object
+    models constructed by the vision system are shown. On the bottom,
+    the categories that are applicable to each object are shown. Those
+    categories that are different between the two robots are printed
+    in italics.}
+  \label{f:gfwm-scene}
+\end{figure}
+
+For comparability with the simulated version of this model, we assume
+a categorization strategy that, similarly to discrimination trees,
+splits sensory channels into four discrete regions. Agents are then
+provided with sensory contexts that contain for each object all
+applicable categories. An example of such sensory contexts from the
+perspectives of two robots in a scene is shown in Figure
+\ref{f:gfwm-scene}. As discussed in the previous chapter, perceptual
+deviation inevitably causes both agents to categorize the same
+physical objects differently, and indeed for all objects except the
+yellow cone the applicable categories differ on four channels.
+
+
+Everything else, i.e. the lexicon representation, the mechanisms for
+production and interpretation, alignment strategies and even actual
+parameters for certainty score updates and so on, are identical to the
+experiments in Chapter \ref{c:flexible} (page \pageref{c:flexible}).
+
+
+\section{Dealing with perceptual deviation}
+
+
+\begin{figure}[p]
+  \input{figures/gfwm-lexicon-forms-500}
+  \caption{The meanings of the first five words of agent 1 (out of a
+    population of 10 agents) and the corresponding categories in the
+    lexicons of agents 2, 3 and 4 after 5000 interactions. The numbers
+    right to the categories are scores of the association to the
+    category.}
+\label{f:gfwm-lexicon-forms-500}
+\end{figure}
+
+\begin{figure}[p]
+  \rotatebox{90}
+  {\input{figures/gfwm-trace}}
+  \caption{Overview of 10 consecutive interactions in a population of
+    10 agents from game 2000 on. It shows the speaker with his chosen
+    topic, the words used by the speaker with their associated
+    meanings (the association scores are in superscript), the word
+    meanings interpreted by the hearer, the hearer and the interpreted
+    topic, and whether the agents reached communicative success.}
+  \label{f:gfwm-trace}
+\end{figure}
+
+
+With flexible word representations, agents do not try trying to find
+the ``correct'' mapping from a form to a meaning among a set of
+competing hypothesis, but rather capture the uncertainty how to
+conceptualize objects in the word representations themselves. Figure
+\ref{f:gfwm-lexicon-forms-500} shows a partial snapshot of the early
+lexicons of four agents after 500 interactions. Although there is some
+initial coherence, very different categories are associated to each
+form by different agents, very often even from the same sensory
+channel.
+
+
+
+Nevertheless, as already discussed in Chapter \ref{c:flexible}, agents
+are able to use these highly un-conventionalized word meanings
+successfully from very early on, because the similarity based lexicon
+application does not require all categories of a meaning to be
+applicable to the topic -- it is enough that the similarity of the
+words of the utterance to the topic is highest compared to the all
+other objects in the context. This is illustrated in Figure
+\ref{f:gfwm-trace}, which lists 10 consecutive language games from
+interaction 2000 on. All of these interactions succeed, although the
+category sets that speaker and hearer connect to the words in the
+utterance are often very different. Furthermore (as we already
+observed in non-grounded version), using multi-word utterances does
+not increase the risk of communicative failure but rather decreases
+it, because the likelihood of finding the right topic is the higher
+the more (partially conventionalized) words are used in the
+similarity-based lexicon application.
+
+\begin{figure}[t]
+  \input{figures/gfwm-lexicon-forms-10000}
+  \caption{Meanings of the same words as in Figure
+    \ref{f:gfwm-lexicon-forms-500} at interaction 10000. }
+  \label{f:gfwm-lexicon-forms-10000}
+\end{figure}
+
+
+\begin{figure}[t]
+  \gnuplotfigure{figures/gfwm-channel-entrenchment}
+  \caption{Success of categories in communication per sensory channel.
+    For all categories of the first agent in the population, the
+    average association scores to the connected forms are plotted per
+    channel along the x axis.}
+  \label{f:gfwm-channel-entrenchment}
+\end{figure}
+
+
+\begin{figure}[t]
+  \centerline{\includegraphics[width=0.8\textwidth]{figures/gfwm-lexicon-20000}}
+  \caption{Network visualization of the he lexicon of the first agent
+    of the population after 20000 interactions. For each word form,
+    all categories that are associated to the form are shown. Line
+    width denote association weights.}
+  \label{f:gfwm-semiotic-network-example}
+\end{figure}
+
+Carefully shaping these categories in subsequent interactions, agents
+reach high coherence in their lexicons. Figure
+\ref{f:gfwm-lexicon-forms-10000} shows the lexicons of the same agents
+9500 interactions later, and it turns all first five words from
+interaction 500 survived in the lexicons of all the agents, and a
+consensus on a core set of categories has been reached. Furthermore,
+the aligned lexicons contain words of different degrees of specificity
+(unlike the competition based lexicon formation models, which had a
+bias towards atomic word meanings) -- the lexicons in Figure
+\ref{f:gfwm-lexicon-forms-10000} contain both very general and very
+specific words. As an example for a general word, ``lugefe'' is
+consistently associated to the single category \texttt{luminance-2},
+which makes it applicable to all ``dark'' objects. In contrast,
+``wedilo'' is an example for a very specific word, it is associated by
+all four agents to the tree categories \texttt{yellow-blue-3},
+\texttt{green-red-4} and \texttt{luminance-2}, which makes the word
+only applicable to dark purple or pink objects. In between, words such
+as ``weviwa'' (``turquoise'') or ``zubere'' (``small'') cover two
+categories.
+
+
+Note that categories on channels such as \texttt{yellow-blue} and
+\texttt{green-red} have higher association scores than others.
+Similarly to the experiments in the previous two chapters, agents rely
+more on categories on channels with smaller perceptual deviation,
+which is further illustrated in Figure
+\ref{f:gfwm-channel-entrenchment}. The average association scores
+between forms and categories are highest for categories on the
+\texttt{yellow-blue}, \texttt{luminance} and \texttt{green-red}
+channels, which again matches their observed correlations across all
+the perceptions of both robots (see Figure
+\ref{f:data-sets-perceptual-deviation-matrix} on page
+\pageref{f:data-sets-perceptual-deviation-matrix}). Furthermore, some
+categories on channels with higher perceptual deviation end up being
+removed from all the words in the lexicon, as shown in Figure
+\ref{f:gfwm-semiotic-network-example}.
+
+
+
+
+\startfiguregroup
+
+\begin{figure}[t]
+  \gnuplotfigure{figures/qfwm-attribute-scores-1}
+  \caption{Example of the evolution of a single word of a single agent
+    over time (interactions). Along the x-axis, the association scores
+    to each category of the word are plotted.}
+\label{f:qfwm-attribute-scores-1}
+\end{figure}
+
+\begin{figure}[t]
+  \gnuplotfigure{figures/qfwm-attribute-scores-2}
+  \caption{Example of the evolution of a second word over time.}
+  \label{f:qfwm-attribute-scores-2}
+\end{figure}
+
+\begin{figure}[t]
+  \gnuplotfigure{figures/qfwm-attribute-scores-3}
+  \caption{Example of the evolution of a third word over time.}
+  \label{f:qfwm-attribute-scores-3}
+\end{figure}
+
+\begin{figure}[t]
+  \gnuplotfigure{figures/qfwm-attribute-scores-4}
+  \caption{Example of the evolution of a fourth word over time.}
+  \label{f:qfwm-attribute-scores-4}
+\end{figure}
+
+\stopfiguregroup
+
+~\\
+
+Finally, Figures
+\ref{f:qfwm-attribute-scores-1}--\ref{f:qfwm-attribute-scores-4}
+provide four examples of the changing association of word forms to
+different categories, demonstrating the capability to gradually shift
+word meanings in order to make them more applicable to the objects in
+the world. A word that constantly changes its dominant meaning is
+shown in Figure
+\ref{f:qfwm-attribute-scores-1}. It is invented
+or adopted at around interaction 6000 and subsequently undergoes many
+meaning shifts.  Over time, the highest association scores are to {\tt
+  height-3} (interaction 7000), {\tt yellow-blue-2} (interaction
+16000), {\tt width-2} (21000 - 36000) and {\tt luminance-2} (40000).
+In addition to that, many other categories are associated with the
+word, but are immediately discarded again. The situation stabilizes
+towards the end, giving the word the final meaning ``narrow, dark,
+yellow''.  In contrast, Figure
+\ref{f:qfwm-attribute-scores-2} is an example of
+a rather unsuccessful word. The initial meanings disappear quite soon
+and at around interaction 5000, a stable set of three categories
+arises. This meaning does not seem to spread and the word loses all
+its categories after 22000 interactions.  Thereafter the agent does
+not use the word himself in production, but other agents in the
+population still use it, leading to new associations with categories,
+which eventually also don't turn out to be successful.
+
+An example for a word that changes from being very specific to very
+general is shown in Figure
+\ref{f:qfwm-attribute-scores-3}. Except for some
+quickly disappearing other associations, this word is initially only
+connected to {\tt width-2}.  Over the course of more interactions,
+more and more categories are associated ({\tt luminance-3} at around
+interaction 3000, {\tt green-red-4} at interaction 7000 and finally
+{\tt height-2} at interaction 22000).  So this word changed from being
+very general (``thin'') to very specific (``thin, low, bright and
+red''). In contrast, the word in Figure
+\ref{f:qfwm-attribute-scores-4} is an example of
+the opposite. It starts being very specific, with connections to {\tt
+  green-red-4}, {\tt yellow-blue-2}, {\tt height-2}, {\tt width-2},
+{\tt luminance-3} (``orange, small and bright'').  It looses most of
+its categories, becoming very general (``orange'') towards the end.
+
+
+
+\section{Success without coherence}
+
+
+\begin{figure}[t]
+  \gnuplotfigure{figures/gfwm-success+lexicon-size+coherence}
+  \caption{Comm\-unicative success (measure
+    \ref{m:communicative-success}), lexicon size (measure
+    \ref{m:lexicon-size}) and lexicon coherence (measure
+    \ref{m:fwm-lexicon-coherence}) in a population of 10 agents
+    averaged over 10 repeated series of 20000 language games.}
+  \label{f:gfwm-success+lexicon-size+coherence}
+\end{figure}
+
+
+Throughout this thesis, the flexible word representations and
+alignment strategies are the only lexicon formation model that could
+be applied without modification to a setup with physical robots in a
+real world. Figure \ref{f:gfwm-success+lexicon-size+coherence} shows
+the overall alignment dynamics, which look very similar to the
+non-grounded version (Figure
+\ref{f:sfwm-success+lexicon-size+coherence} on page
+\pageref{f:sfwm-success+lexicon-size+coherence}). Already after a few
+hundred interactions agents communicate successfully in more than 50\%
+of the cases, and by further extending and refining their lexicons
+agents reach about 90\% communicative success, which is remarkably
+high for grounded language games. Even more so than in the
+non-grounded version, lexicon coherence is not a prerequisite for
+communicative success -- it is even below zero in the first 2000
+interaction (due to it's computation using the set similarity measure)
+and grows only slowly later on. This again shows that the similarity
+based lexicon application allows agents to stretch their initial word
+meanings to broad use cases and thus allows them to communicate
+successfully.
+
+
+\begin{figure}[t]
+  \gnuplotfigure{figures/gfwm-lexicon}
+  \caption{The distance of the utterance to the topic (measure
+    \ref{m:fwm-distance-utterance-topic}), the average number of
+    categories covered per word (measure
+    \ref{m:fwm-attributes-per-word}) and the average utterance length
+    (measure \ref{m:utterance-length}) are averaged over 10 repeated
+    series of 20000 language games.}
+  \label{f:gfwm-lexicon}
+\end{figure}
+
+
+Furthermore, the word usage dynamics (Figure \ref{f:gfwm-lexicon})
+look almost identical to their non-grounded counterpart (Figure
+\ref{f:sfwm-lexicon} on page \pageref{f:sfwm-lexicon}). The distance
+between the words of the utterance and the topic quickly decreases,
+and on average two words that cover on average 4 categories are part
+of each utterance.
+
+\startfiguregroup
+
+
+\begin{figure}[t]
+  \gnuplotfigure{figures/gfwm-communicative-success-vs-population-size}
+  \caption{Communi\-cative success (measure
+    \ref{m:communicative-success}) for five different population
+    sizes. Results are averaged over 10 series of varying length, but
+    each with 8000 interactions per agent.}
+  \label{f:gfwm-communicative-success-vs-population-size}
+\end{figure}
+
+\begin{figure}[t]
+  \gnuplotfigure{figures/gfwm-lexicon-size-vs-population-size}
+  \caption{Lexicon size (measure \ref{m:lexicon-size}) for five
+    different population sizes. Results are averaged over 10 series of
+    varying length, but each with 8000 interactions per agent.}
+  \label{f:gfwm-lexicon-size-vs-population-size}
+\end{figure}
+
+\begin{figure}[t]
+  \gnuplotfigure{figures/gfwm-lexicon-coherence-vs-population-size}
+  \caption{Lexicon coherence (measure \ref{m:fwm-lexicon-coherence})
+    for five different population sizes. Results are averaged over 10
+    series of varying length, but each with 8000 interactions per
+    agent.}
+  \label{f:gfwm-lexicon-coherence-vs-population-size}
+\end{figure}
+
+\stopfiguregroup
+
+~\\
+
+Finally, Figures
+\ref{f:gfwm-communicative-success-vs-population-size}--\ref{f:gfwm-lexicon-coherence-vs-population-size}
+investigate the scaling with population size and it shows that the
+model scales even slightly better with increasing population sizes
+than the non-grounded version (compare page
+\pageref{f:gfwm-communicative-success-vs-population-size}). Without
+having looked into it, we speculate that this is because the physical
+world of our robots is more structured than the simulate world, which
+provides an external structure for the word meanings and thus makes
+the alignment task easier.
+ 
+
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "thesis"
+%%% End: 
