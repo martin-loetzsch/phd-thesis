@@ -57,6 +57,7 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
 
 \setlength{\skip\footins}{1cm}
 
+
 \frenchspacing
 \tolerance=500
 \predisplaypenalty=0
@@ -79,7 +80,7 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
   \thispagestyle{empty}
   \addcontentsline{toc}{part}{Part \thepart\hspace{1.3em}#1}%
   \begin{flushleft}
-    \bfseries\sffamily\huge{\color{headline}\partname~\thepart\vskip9mm
+    \onehalfspacing\bfseries\sffamily\huge{\color{headline}\partname~\thepart\vskip9mm
       \Huge\selectfont{#2}\label{p:\thepart}}
   \end{flushleft}
   \clearpage
@@ -106,7 +107,7 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
   \refstepcounter{chapter}
   \startChapterHeading
   \begin{flushleft}
-    \sffamily\large{\color{headline} Chapter \thechapter\vskip7mm%
+    \onehalfspacing\sffamily\large{\color{headline} Chapter \thechapter\vskip7mm%
     {\sffamily\bfseries\Large #1}}
   \end{flushleft}
   \finishChapterHeading{#1}
@@ -241,7 +242,7 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
     }\hskip5mm\vbox{\hsize\wd\figurebox \usebox{\figurebox}}
     \else
     \hskip0.8mm\centerline{\usebox{\figurebox}}
-    \vskip1mm
+    \vskip2.5mm
     \caption{\captioncontent}\label{\labelcontent}
     \fi
   \end{oldfigure}
@@ -308,12 +309,12 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
 \let\orig@verbatim\verbatim
 \let\endorig@verbatim\endverbatim
 \renewenvironment*{verbatim}
-	{\begin{orig@verbatim}\begin{singlespace}}
+	{\begin{orig@verbatim}\begin{singlespace}\footnotesize}
 	{\end{singlespace}\end{orig@verbatim}}
 
 
 \newenvironment{verbatim+}
-{\vspace{-0.5cm}\singlespace\Verbatim[codes={\catcode`\$=3},commandchars=\\\{\},fontfamily=courier,fontsize=\small,samepage=true]}
+{\vspace{-0.5cm}\singlespace\Verbatim[codes={\catcode`\$=3},commandchars=\\\{\},fontfamily=courier,fontsize=\footnotesize,samepage=true]}
 {\endVerbatim}
 
 

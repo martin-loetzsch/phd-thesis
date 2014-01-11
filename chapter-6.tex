@@ -22,7 +22,7 @@ able to capture.
 
 
 \begin{figure}[t]
-  \includegraphics[width=0.41\linewidth]{figures/fwm-word}
+  \includegraphics[width=0.43\linewidth]{figures/fwm-word}
   \caption{Illustration of a single flexible word representation. The
     form ``fupuve'' is associated to 5 different categories with
     individual certainty scores. }
@@ -120,7 +120,6 @@ set theory:
 \end{verbatim+}
 
 
-
 \begin{verbatim+}
 \textbf{Function} Difference(A, B):
 
@@ -205,16 +204,21 @@ productionScores $\leftarrow$ nil;
                                             \textbf{collect} Meaning(word));
         meaningOfExtendedUtterance $\leftarrow$ FuzzySetUnion(meaningOfUtterance 
                                                     + Meaning(word));
-        objectSimilarities $\leftarrow$ \textbf{ForEach} object \textbf{in} context 
-                              \textbf{collect} Similarity(meaningOfExtendedUtterance, 
-                                                 object));
+        objectSimilarities 
+            $\leftarrow$ \textbf{ForEach} object \textbf{in} context 
+                  \textbf{collect} Similarity(meaningOfExtendedUtterance, 
+                                     object));
 
-        topicSimilarity $\leftarrow$ GetSimilarity(topic, objectSimilarities);
-        closestOtherSimilarity $\leftarrow$ Max(objectSimilarities $\setminus$ topicSimilarity);
-        Add (topicSimilarity $-$ closestOtherSimilarity) \textbf{to} productionScores;
+        topicSimilarity 
+            $\leftarrow$ GetSimilarity(topic, objectSimilarities);
+        closestOtherSimilarity 
+            $\leftarrow$ Max(objectSimilarities $\setminus$ topicSimilarity);
+        Add (topicSimilarity $-$ closestOtherSimilarity) 
+            \textbf{to} productionScores;
     \textbf{End ForEach};
     bestNewWord $\leftarrow$ word with highest score in productionScores;
-    \textbf{If} ProductionScore(bestCandidate) $>$ average of ProductionScores(utterance)
+    \textbf{If} ProductionScore(bestCandidate) 
+        $>$ average of ProductionScores(utterance)
         \textbf{then} Add bestNewWord \textbf{to} utterance;
         \textbf{Else} \textbf{Break} from Loop;
 \textbf{End Loop};
@@ -248,9 +252,11 @@ similarity between this set and every object in the context:
 \begin{verbatim+}
 \textbf{Function} Interpret(utterance, context):
 
-interpretedMeaning $\leftarrow$ Fuzzy Union of all meanings for known words in utterance;
-objectSimilarities $\leftarrow$ \textbf{ForEach} object \textbf{in} context 
-                         \textbf{collect} Similarity(interpretedMeaning, object);
+interpretedMeaning 
+    $\leftarrow$ Fuzzy Union of all meanings for known words in utterance;
+objectSimilarities 
+    $\leftarrow$ \textbf{ForEach} object \textbf{in} context 
+                     \textbf{collect} Similarity(interpretedMeaning, object);
 topic $\leftarrow$ object with highest score in objectSimilarities;
 
 \textbf{If} similarityScore of topic $>$ 0
@@ -330,7 +336,8 @@ disjointCategories $\leftarrow$ Categories(utterance) $\setminus$ topicCategorie
    \textbf{ForEach} category \textbf{in} Meaning(word) 
       \textbf{If} category in sharedCategories
       \textbf{then} IncrementScore(word, category);
-      \textbf{Else} DecrementScore(word, category); \textit{// Also removes categories if score < 0} 
+      \textbf{Else} DecrementScore(word, category); 
+           \textit{// Also removes categories if score < 0} 
 \textbf{If} not CommunicatedSuccessfully(agent) 
 \textbf{then} \textit{// Make words more specific, only the hearer does this} 
    \textbf{ForEach} word \textbf{in} utterance 
@@ -395,10 +402,10 @@ two categories to it.
 
 \begin{figure}[p]
   \begin{tabular}{c}
-    \includegraphics[width=0.73\textwidth]{figures/sfwm-lexicon-500} \\
+    \includegraphics[scale=0.35]{figures/sfwm-lexicon-500} \\
     \\
     \\
-    \includegraphics[width=0.55\textwidth]{figures/sfwm-lexicon-10000} \\
+    \includegraphics[scale=0.35]{figures/sfwm-lexicon-10000} \\
     \\
   \end{tabular}
   \caption{A network visualization of the lexicon of a single agent at
@@ -480,7 +487,7 @@ correct topic.
 
 ~\\
 
-\noindent In addition the flexible lexicon application, the
+\noindent In addition to the flexible lexicon application, the
 similarity-based alignment mechanisms are the second key factor for
 the dynamics of this lexicon formation model. Instead of deleting
 competing hypotheses on word meanings from their lexicons, agents

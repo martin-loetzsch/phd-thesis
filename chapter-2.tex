@@ -78,10 +78,12 @@ perceived by the agents. An example scene consisting of two objects
 created by such a world generator could look like this: 
 
 \begin{verbatim}
-green(obj-1), small(obj-1), square(obj-1), red(obj-2), small(obj-2), circle(obj-2)
+green(obj-1), small(obj-1), square(obj-1), red(obj-2), 
+small(obj-2), circle(obj-2)
 \end{verbatim}
-In contrast, in our experiments with physical environments, real
-robots perceive actual objects through their cameras (see Chapter
+
+\noindent In contrast, in our experiments with physical environments,
+real robots perceive actual objects through their cameras (see Chapter
 \ref{c:embodiment}).
 
 
@@ -139,7 +141,7 @@ make the cow go away or to get milk from it, but that's not the case
 order to make sense of the action).
 
 \begin{figure}[t!]
-  \centerline{\includegraphics[width=0.80\textwidth]{figures/guessing-game-flow}}
+  \centerline{\includegraphics[width=0.85\textwidth]{figures/guessing-game-flow}}
   \caption{Flow of one language game. A speaker and a hearer follow a
     routinized script. The speaker tries to draw the attention of the
     hearer to a physical object in their shared environment.  Both
@@ -453,8 +455,9 @@ include graphs such as Figure
 (no averaging). But we believe that the noisy curve in that example
 does not add any information and makes comparisons with other graphs
 harder. We will thus use higher averaging windows (usually 250, but
-sometimes even higher), which produce cleaner curves. The disadvantage
-of heavy averaging is, as it is shown in the other two graphs (Figure
+sometimes even higher), which produces cleaner curves. The
+disadvantage of heavy averaging is, as it is shown in the other two
+graphs (Figure
 \ref{f:communicative-success-example-average-window-100} and
 \ref{f:communicative-success-example-average-window-1000}), that the
 curves are a bit ``behind'' the non-averaged data (so this has to be
@@ -492,7 +495,7 @@ interpret (understand) as you want them to''
 \label{s:representing-linguistic-knowlede}
 
 \begin{figure}
-  \parbox{0.6\textwidth}{\centerline{\includegraphics{figures/saussurean-sign}}}
+  \parbox{0.6\textwidth}{\centerline{\includegraphics[width=0.35\textwidth]{figures/saussurean-sign}}}
   \caption{A diagram that illustrates our notion of the term ``word''
     as referring to the whole association of a meaning to a form.}
   \label{f:saussurean-sign}
@@ -652,14 +655,14 @@ competing synonyms and homonyms.
 
 \begin{figure}[t]
 \centerline{
-\begin{tabular}{lp{1cm}l}
+\begin{tabular}{lp{0.7cm}l}
  A & & B \\
- \includegraphics[width=0.30\columnwidth]{figures/models-of-form-meaning-couplings-1} & &
- \includegraphics[width=0.30\columnwidth]{figures/models-of-form-meaning-couplings-2} \\
+ \includegraphics[width=0.31\columnwidth]{figures/models-of-form-meaning-couplings-1} & &
+ \includegraphics[width=0.31\columnwidth]{figures/models-of-form-meaning-couplings-2} \\
  & & \\
  C & & D \\
- \includegraphics[width=0.30\columnwidth]{figures/models-of-form-meaning-couplings-3} & &
- \includegraphics[width=0.30\columnwidth]{figures/models-of-form-meaning-couplings-4} 
+ \includegraphics[width=0.31\columnwidth]{figures/models-of-form-meaning-couplings-3} & &
+ \includegraphics[width=0.31\columnwidth]{figures/models-of-form-meaning-couplings-4} 
 \end{tabular}}
 \caption{Increasing complexity in the nature of the coupling between
   form and meaning.  Hypothetical example lexicons of one agent are
@@ -830,7 +833,7 @@ what things are dogs and are not dogs''
 \citep[p. 18]{bloom00how-children}.
 
 \begin{figure}
-  \parbox{0.6\textwidth}{\centerline{\includegraphics{figures/semiotic-triangle}}}
+  \parbox{0.6\textwidth}{\centerline{\includegraphics[width=0.4\textwidth]{figures/semiotic-triangle}}}
   \caption{Diagram of a semiotic triangle. The relation between a
     meaning, a form and a referent loosely resemble the definition of
     a sign by \cite{peirce31collected}. }
@@ -1079,7 +1082,7 @@ coupling are crucial for successful communication (see
 early experiments).
 
 \begin{figure}[t]
-  \centerline{\includegraphics{figures/semiotic-network-example}}
+  \centerline{\includegraphics[width=0.75\textwidth]{figures/semiotic-network-example}}
   \caption{A schematic model of an agent's semiotic
     network. Perceptual processes yield representations of sensory
     experiences that then become connected to meaning representations
