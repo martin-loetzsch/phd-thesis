@@ -1,14 +1,14 @@
-\parbox{\textwidth}{\footnotesize\sffamily 
+\parbox{\textwidth}{\fontsize{2.25mm}{2.5mm}\sffamily 
   \includegraphics[width=1\textwidth]{figures/vision-system-example-scene}
   \vspace{1mm}
   
   \renewcommand{\arraystretch}{1.5}
-  \newcommand{\sub}[1]{\raisebox{-2pt}{\scriptsize{#1}}}
-  \addtolength{\tabcolsep}{-1.3pt}
+  \newcommand{\sub}[1]{\raisebox{-2pt}{\tiny#1}}
+  \addtolength{\tabcolsep}{-2.4pt}
   \definecolor{dark}{rgb}{0.5,0.2,0}     
-  \begin{tabular*}{\textwidth}{@{}p{26.5mm}|rl|rl|rl||rll|rll|rll@{}}
+  \hskip0.5mm\begin{tabular*}{\textwidth}{@{}p{17.5mm}|rl|rl|rl||rll|rll|rll@{}}
     & \multicolumn{6}{c||}{experience robot A} & \multicolumn{9}{c}{experience robot B} \\
-    feature \normalsize & 
+    feature & 
     \multicolumn{2}{c}{o\sub{708}} & 
     \multicolumn{2}{c}{o\sub{716}} &
     \multicolumn{2}{c||}{o\sub{722}} & 
@@ -109,5 +109,5 @@
 
 %%% Local Variables: 
 %%% mode: latex
-%%% TeX-master: "../phd-thesis"
+%%% TeX-master: "../phdbook"
 %%% End: 

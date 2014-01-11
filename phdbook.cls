@@ -223,7 +223,7 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
   \let\captioncontent\@undefined
   \let\labelcontent\@undefined
   \begin{oldfigure}[#1]
-    \figurebeginhook\sffamily\tiny\setbox\figurebox\hbox\bgroup\ignorespaces%
+    \figurebeginhook\sffamily\scriptsize\setbox\figurebox\hbox\bgroup\ignorespaces%
     \def\label##1{\gdef\labelcontent{##1}}%
     \def\caption##1{\gdef\captioncontent{##1}}%
   }
@@ -235,12 +235,12 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
     \addtolength{\captionwidth}{-0.3cm}
     \renewcommand{\baselinestretch}{0.8}
     \let\@makecaption\makeCaption
-    \ifdim\boxwidth<0.77\textwidth
+    \ifdim\boxwidth<0.80\textwidth
     \parbox[t]{\captionwidth}{\vskip-\ht\figurebox
       \caption{\captioncontent}\label{\labelcontent}
     }\hskip5mm\vbox{\hsize\wd\figurebox \usebox{\figurebox}}
     \else
-    \hskip1.5mm\centerline{\usebox{\figurebox}}
+    \hskip0.8mm\centerline{\usebox{\figurebox}}
     \vskip1mm
     \caption{\captioncontent}\label{\labelcontent}
     \fi
@@ -249,7 +249,7 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
 
 
 \newcommand\gnuplotfigure[1]{%
-  \parbox{86.0mm}{\vspace{-3.0mm}\includegraphics[width=86.0mm]{#1}}}
+  \parbox{90.0mm}{\vspace{-2.0mm}\includegraphics[width=90.0mm]{#1}}}
 
 
 \newcounter{subfigure}
@@ -280,7 +280,7 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
 \newcommand\floatc@measure[2]{}
 \newcommand\fs@measure{\let\@fs@capt\floatc@measure
   \def\@fs@pre{\setbox\@currbox\vbox{\hbadness10000
-      \hbox to\hsize{\textcolor{shadecolor}{\vrule width 2.5mm}\kern-3mm\box\@currbox}}}%
+      \hbox to\hsize{\textcolor{shadecolor}{\vrule width 1.5mm}\kern-3mm\box\@currbox}}}%
   \def\@fs@post{}%
   \def\@fs@mid{}\let\@fs@iftopcapt\iftrue}
  
@@ -294,7 +294,7 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
     \vspace{1.5mm}
     \leftskip=5mm
     \renewcommand{\baselinestretch}{1.05}
-    \itshape\footnotesize\sffamily{Measure \themeasuref : #2}\par\vspace{2mm}}
+    \itshape\scriptsize\sffamily{Measure \themeasuref : #2}\par\vspace{2mm}}
     {\vspace{1mm}%
     \end{measuref}}
 
