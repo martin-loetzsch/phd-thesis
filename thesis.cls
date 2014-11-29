@@ -1,13 +1,11 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesClass{thesis}[2013/11/21 A slightly more modern looking version of 'book', by Martin Loetzsch]
-\LoadClass[11.5pt]{book}
+\LoadClass[a4paper,11pt]{book}
 
 \DeclareOption{draft}{\PassOptionsToPackage{\CurrentOption}{graphicx}}
 \ProcessOptions
 
-\RequirePackage[paperwidth=170mm,paperheight=240mm]{geometry}
-
-\renewcommand{\sfdefault}{phv}
+\RequirePackage{palatino}
 \renewcommand{\ttdefault}{cmtt}
 
 \RequirePackage{setspace}
@@ -18,9 +16,12 @@
 \RequirePackage{amsfonts}
 \RequirePackage[pdftex]{graphicx}
 \RequirePackage{rotating}
+\RequirePackage{comment}
 \RequirePackage{scrextend}
 
 \definecolor{linkcolor}{rgb}{0,0,0.6}
+
+
 
 \RequirePackage[final,pdftex,pagebackref,bookmarks=true,linktocpage=false,
 colorlinks=true,bookmarksopen=true,bookmarksnumbered=true,citecolor=linkcolor,
@@ -32,31 +33,37 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
 
 
 
-\DeclareOption{print}{
-  \hypersetup{colorlinks=false}
-}
-
-
 %-------------------------------------------------------------------------------------
 % layout
 %-------------------------------------------------------------------------------------
 
+\setlength{\paperwidth}{210mm}
+\setlength{\paperheight}{297mm}
+
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{225mm}
+
+\setlength{\topmargin}{0mm}
+
+\setlength\oddsidemargin{-2.5mm}
+\setlength\evensidemargin{-2.5mm}
+
+\DeclareOption{print}{
+  \hypersetup{colorlinks=false}
+  \setlength\oddsidemargin{4mm}
+  \setlength\evensidemargin{-10mm}
+}
+
 \ProcessOptions\relax
 
-\setlength{\headheight}{30pt}
-\setlength{\topmargin}{-40pt}
-\setlength{\oddsidemargin}{0mm}
-\setlength{\evensidemargin}{0mm}
-\setlength{\headsep}{20pt}
-\setlength{\textheight}{550pt}
-\setlength{\footskip}{0pt}
-
-
+\setlength{\headsep}{14mm}
+\addtolength{\textfloatsep}{10mm}
+\addtolength{\floatsep}{3mm}
+\renewcommand{\baselinestretch}{1.5}
 \setlength{\parindent}{5mm}
 \setcounter{bottomnumber}{5}
 
 \setlength{\skip\footins}{1cm}
-
 
 \frenchspacing
 \tolerance=500
@@ -73,42 +80,41 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
 
 \definecolor{headline}{rgb}{0.2,0.2,0.2}
 
-% Parts
+
 \renewcommand{\@part}[2][?]{
   \markboth{}{} 
   \refstepcounter{part}
   \thispagestyle{empty}
   \addcontentsline{toc}{part}{Part \thepart\hspace{1.3em}#1}%
   \begin{flushleft}
-    \onehalfspacing\bfseries\sffamily\huge{\color{headline}\partname~\thepart\vskip9mm
-      \Huge\selectfont{#2}\label{p:\thepart}}
+    \bfseries\sffamily\Huge{\color{headline}\partname~\thepart\vskip9mm
+    \fontsize{16mm}{14mm}\selectfont{#2}\label{p:\thepart}}
   \end{flushleft}
   \clearpage
   \thispagestyle{empty}}
 
 
-% Chapters 
 \newcommand{\startChapterHeading}{%
-  \noindent\rule[-2cm]{\textwidth}{0.2mm}\vspace{3mm}
+  \noindent\rule[-4cm]{\textwidth}{0.4mm}\vspace{5mm}
 }
 
 \newcommand{\finishChapterHeading}[1]{
 
-  \vspace{3mm}%
-  \noindent\rule[1cm]{\textwidth}{0.2mm}%
+  \vspace{5mm}%
+  \noindent\rule[2cm]{\textwidth}{0.4mm}%
   \chaptermark{#1}%
   \sectionmark{}%
   \pagestyle{headings}%
   \thispagestyle{empty}%
-  \@xsect{5mm}}
+  \@xsect{2mm}}
 
 \renewcommand{\@chapter}[2][?] {
   \cleardoublepage
   \refstepcounter{chapter}
   \startChapterHeading
   \begin{flushleft}
-    \onehalfspacing\sffamily\large{\color{headline} Chapter \thechapter\vskip7mm%
-    {\sffamily\bfseries\Large #1}}
+    \sffamily\huge{\color{headline} Chapter \thechapter\vskip7mm%
+    {\sffamily\bfseries\Huge #1}}
   \end{flushleft}
   \finishChapterHeading{#1}
   \addcontentsline{toc}{chapter}{\protect\numberline{\thechapter} #1}%
@@ -118,41 +124,48 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
   \cleardoublepage
   \refstepcounter{chapter}
   \startChapterHeading
-  {\sffamily\bfseries\Large{\color{headline} #1}}%
+  \noindent{\sffamily\bfseries\Huge{\color{headline} #1}}%
   \finishChapterHeading{#1}
   \addcontentsline{toc}{chapter}{\protect\numberline{} #1}%
 }
 
-
-% sections
+% section headings
 \renewcommand\section[1]{
   \sectionmark{#1}
   \pagebreak[3]
-  \addvspace{15mm}
+  \addvspace{25mm}
   \refstepcounter{section}
   \addcontentsline{toc}{section}{\protect\numberline{\thesection} #1}%
-  \noindent\parbox{\textwidth}{\rule{\textwidth}{0.2mm}\vspace{1.5mm}%
-    {\singlespace\normalfont\sffamily\normalsize\bfseries{\color{headline} \thesection\hspace{4mm}#1}}
-    \vspace{-1.0mm}
+  \noindent\parbox{\textwidth}{\rule{\textwidth}{0.2mm}%
+    {\singlespace\normalfont\sffamily\large\bfseries{\color{headline} \thesection\hspace{4mm}#1}}
+    \vspace{-1.5mm}
     
     \rule{\textwidth}{0.2mm}}%
   \sectionmark{#1}%
-  \@xsect{7mm}
+  \@xsect{15mm}
   \@afterindentfalse}
 
-
-% subsections
+% subsection headings
 \renewcommand\subsection[1]{
   \pagebreak[3]
-  \addvspace{12mm}
+  \addvspace{20mm}
   \refstepcounter{subsection}
   \addcontentsline{toc}{subsection}{\protect\numberline{\thesubsection} #1}%
-  \noindent\parbox{\textwidth}{%
+  \noindent\parbox{\textwidth}{\rule{\textwidth}{0.1mm}
     
-    {\singlespace\normalfont\sffamily\bfseries{\color{headline} \thesubsection\hspace{4mm}#1}}}%
-  \@xsect{5mm}
+    \vspace{-2mm}{\singlespace\normalfont\sffamily\bfseries{\color{headline} \thesubsection\hspace{4mm}#1}}
+    \vspace{-2.5mm}
+    
+    \rule{\textwidth}{0.1mm}}%
+  \@xsect{10mm}
   \@afterindentfalse}
 
+% subsubsection headings
+\renewcommand\subsubsection[1]{
+  \pagebreak[3]
+  \addvspace{15mm}
+  \@startsection {subsubsection}{4}{\z@}{0mm}{7mm}{\singlespace\normalfont\sffamily}{#1}
+  \@afterindentfalse}
 
 
 \newcommand{\inparagraph}[1]{\vspace{0.3cm}\noindent \textbf{#1.}{}}
@@ -178,15 +191,13 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
 % table of contents
 %-------------------------------------------------------------------------------------
 
-
 \renewcommand\tableofcontents{%
   \startChapterHeading
-  \noindent{\sffamily\bfseries\Large Contents}%
+  \noindent{\sffamily\bfseries\Huge Contents}%
   \finishChapterHeading{Contents}
   \@starttoc{toc}%
 }
 \setcounter{tocdepth}{5}
-
 
 
 %-------------------------------------------------------------------------------------
@@ -194,7 +205,7 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
 %-------------------------------------------------------------------------------------
 
 \RequirePackage[round,sort&compress]{natbib}
-\bibliographystyle{bibliography}
+\bibliographystyle{thesis}
 \pagestyle{empty}
 
 \renewcommand{\bibsection}{\chapter*{References}}
@@ -210,7 +221,7 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
 %-------------------------------------------------------------------------------------
 % smart figures
 %-------------------------------------------------------------------------------------
-\newcommand{\makeCaption}[2]{{\sffamily\slshape\scriptsize#1: #2}}
+\newcommand{\makeCaption}[2]{{\sffamily\slshape\footnotesize#1: #2}}
 
 \newcommand{\figurebeginhook}{}
 
@@ -224,25 +235,25 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
   \let\captioncontent\@undefined
   \let\labelcontent\@undefined
   \begin{oldfigure}[#1]
-    \figurebeginhook\sffamily\scriptsize\setbox\figurebox\hbox\bgroup\ignorespaces%
+    \figurebeginhook\sffamily\footnotesize\setbox\figurebox\hbox\bgroup\ignorespaces%
+    \renewcommand{\baselinestretch}{1}%
     \def\label##1{\gdef\labelcontent{##1}}%
     \def\caption##1{\gdef\captioncontent{##1}}%
   }
   {
     \egroup
     \def\boxwidth{\wd\figurebox}
-    \setlength\captionwidth{119.2mm}
+    \setlength\captionwidth{165mm}
     \addtolength{\captionwidth}{-\boxwidth}
     \addtolength{\captionwidth}{-0.3cm}
-    \renewcommand{\baselinestretch}{0.8}
     \let\@makecaption\makeCaption
-    \ifdim\boxwidth<0.80\textwidth
+    \ifdim\boxwidth<0.77\textwidth
     \parbox[t]{\captionwidth}{\vskip-\ht\figurebox
       \caption{\captioncontent}\label{\labelcontent}
-    }\hskip5mm\vbox{\hsize\wd\figurebox \usebox{\figurebox}}
+    }\hskip7mm\vbox{\hsize\wd\figurebox \usebox{\figurebox}}
     \else
-    \hskip0.8mm\centerline{\usebox{\figurebox}}
-    \vskip2.5mm
+    \hskip1.5mm\centerline{\usebox{\figurebox}}
+    \vskip3mm
     \caption{\captioncontent}\label{\labelcontent}
     \fi
   \end{oldfigure}
@@ -250,7 +261,7 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
 
 
 \newcommand\gnuplotfigure[1]{%
-  \parbox{90.0mm}{\vspace{-2.0mm}\includegraphics[width=90.0mm]{#1}}}
+  \parbox{122.1mm}{\vspace{-3.0mm}\includegraphics[width=122mm]{#1}}}
 
 
 \newcounter{subfigure}
@@ -281,7 +292,7 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
 \newcommand\floatc@measure[2]{}
 \newcommand\fs@measure{\let\@fs@capt\floatc@measure
   \def\@fs@pre{\setbox\@currbox\vbox{\hbadness10000
-      \hbox to\hsize{\textcolor{shadecolor}{\vrule width 1.5mm}\kern-3mm\box\@currbox}}}%
+      \hbox to\hsize{\textcolor{shadecolor}{\vrule width 2.5mm}\kern-3mm\box\@currbox}}}%
   \def\@fs@post{}%
   \def\@fs@mid{}\let\@fs@iftopcapt\iftrue}
  
@@ -294,8 +305,8 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
     \caption{#2}\label{#3}
     \vspace{1.5mm}
     \leftskip=5mm
-    \renewcommand{\baselinestretch}{1.05}
-    \itshape\scriptsize\sffamily{Measure \themeasuref : #2}\par\vspace{2mm}}
+    \renewcommand{\baselinestretch}{1.3}
+    \itshape\footnotesize\sffamily{Measure \themeasuref : #2}\par\vspace{2mm}}
     {\vspace{1mm}%
     \end{measuref}}
 
@@ -309,12 +320,12 @@ pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
 \let\orig@verbatim\verbatim
 \let\endorig@verbatim\endverbatim
 \renewenvironment*{verbatim}
-	{\begin{orig@verbatim}\begin{singlespace}\footnotesize}
+	{\begin{orig@verbatim}\begin{singlespace}}
 	{\end{singlespace}\end{orig@verbatim}}
 
 
 \newenvironment{verbatim+}
-{\vspace{-0.5cm}\singlespace\Verbatim[codes={\catcode`\$=3},commandchars=\\\{\},fontfamily=courier,fontsize=\footnotesize,samepage=true]}
+{\vspace{-0.5cm}\singlespace\Verbatim[codes={\catcode`\$=3},commandchars=\\\{\},fontfamily=courier,fontsize=\small,samepage=true]}
 {\endVerbatim}
 
 
