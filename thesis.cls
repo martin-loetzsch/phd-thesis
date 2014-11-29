@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{phdbook}[2013/11/21 A slightly more modern looking version of 'book', by Martin Loetzsch]
+\ProvidesClass{thesis}[2013/11/21 A slightly more modern looking version of 'book', by Martin Loetzsch]
 \LoadClass[11.5pt]{book}
 
 \DeclareOption{draft}{\PassOptionsToPackage{\CurrentOption}{graphicx}}
