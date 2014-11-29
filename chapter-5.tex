@@ -5,7 +5,7 @@
 \label{c:gg}
 
 \begin{figure}[t]
-  \includegraphics[scale=0.85]{figures/sgg-example-perception-apples}
+  \includegraphics{figures/sgg-example-perception-apples}
   \caption{Example of a simulated world perception. Objects have a
     temporary identifier for establishing reference (\texttt{obj-142},
     \texttt{obj-143}, etc.) and are characterized by a set of
@@ -32,6 +32,7 @@ that are thus automatically shared between the agents of the
 population. We will call them categories for the remainder of this
 thesis.
 
+\pagebreak
 
 
 In order to draw attention to one of such objects, the speaker needs
@@ -82,8 +83,8 @@ second, whether agents can use multiple words to express a meaning
 (multi-word utterances) or whether
 they use only a single word (single-word utterances):\\
 
-\centerline{\small\renewcommand{\arraystretch}{1.5}
-  \begin{tabular}{rp{2cm}p{2.2cm}}
+\centerline{
+  \begin{tabular}{rcc}
     & single-word utterances & multi-word utterances \\
     unstructured meanings (single categories)  & Section \ref{s:sgg-sw-unstructured} & Section \ref{s:sgg-mw-unstructured} \\
     structured meanings (category sets) & Section \ref{s:sgg-sw-structured} & Section \ref{s:sgg-mw-structured} 
@@ -114,7 +115,7 @@ minimum number of objects in a context $cs_{min}$ is 2, and the
 maximum context size $cs_{max}$ is 5. An example context that was
 created with these parameters is shown below:
 
-\centerline{\footnotesize\sffamily
+\centerline{\small\sffamily
   \begin{tabular}{l|l}
     object & categories \\
     \hline
@@ -158,7 +159,7 @@ and the perceived context, the conceptualization process computes all
 categories that part of the topic but not of the other objects. For
 example with this context \\
 
-\centerline{\footnotesize\sffamily
+\centerline{\small\sffamily
   \begin{tabular}{l|l}
     object & categories \\
     \hline
@@ -175,7 +176,7 @@ conceptualization fails, the speaker signals a communicative failure,
 and the next interaction starts. 
 
 \begin{figure}[t]
-  \includegraphics[scale=0.8]{figures/sgg-semiotic-network-production}
+  \includegraphics{figures/sgg-semiotic-network-production}
   \caption{Example of a semiotic network in
     production. Conceptualization constructs three different meanings,
     and the lexicon is applied independently to each of them. The path
@@ -214,7 +215,7 @@ meanings, a new word is created for a randomly chosen meaning and
 production is retried again.
 
 \begin{figure}[t]
-  \includegraphics[scale=0.8]{figures/sgg-semiotic-network-parsing}
+  \includegraphics{figures/sgg-semiotic-network-parsing}
   \caption{Example of a semiotic network in parsing. The lexicon of
     this agent contains three different meanings for ``faruve'', which
     are each interpreted independently. The path with the highest word
@@ -279,7 +280,7 @@ exists).
 \end{figure}
 
 \begin{figure}[t]
-  \includegraphics[width=\textwidth]{figures/sgg-sw-unstructured-lexicon-1500}
+  \includegraphics[scale=0.5]{figures/sgg-sw-unstructured-lexicon-1500}
   \caption{Network representation of the complete lexicon of the first
     agent in the population after 1500 interactions. Each line
     represents a word in the lexicon of the agent and connects the
@@ -1081,17 +1082,6 @@ categories in the meaning. Again, interpretation of a meaning fails
 when multiple topics are found and the path through semiotic network
 with the highest word score is eventually selected.
 
-\begin{figure}[t]
-  \rotatebox{90}{\input{figures/sgg-sw-structured-trace}}
-  \caption{Overview of 20 consecutive interactions in a population of
-    10 agents from game 4500 on. It shows the agents that are
-    interacting, the topic chosen by the speaker, the conceptualized
-    meaning that was chosen, the utterance, the meaning parsed by the
-    hearer together with the interpreted topic, and whether the agents
-    reached communicative success.}
-  \label{f:sgg-sw-structured-trace}
-\end{figure}
-
 
 \subsection{Holistic coding as a bad strategy}
 
@@ -1106,14 +1096,25 @@ For most of the scenes, the number of alternative conceptualizations
 is between one and four, but sometimes more than 10 meanings are
 conceptualized:\\
 
-\noindent{\footnotesize\sffamily
-  \begin{tabular}{@{}rccccccccccc@{}}
+{\small\sffamily
+  \begin{tabular}{rccccccccccc}
     \# of meanings & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & $>$10 \\
     \hline
     frequency & 25\% & 15\% & 16\% & 15\% & 7\% & 7\% & 4\% & 3\% & 3\% & 1\% & 4\% \\
     \multicolumn{12}{c}{ } \\
     \multicolumn{12}{c}{ }
   \end{tabular}}
+
+\begin{figure}[t]
+  \input{figures/sgg-sw-structured-trace}
+  \caption{Overview of 20 consecutive interactions in a population of
+    10 agents from game 4500 on. It shows the agents that are
+    interacting, the topic chosen by the speaker, the conceptualized
+    meaning that was chosen, the utterance, the meaning parsed by the
+    hearer together with the interpreted topic, and whether the agents
+    reached communicative success.}
+  \label{f:sgg-sw-structured-trace}
+\end{figure}
 
 \noindent Nevertheless, using a separate word for each possible
 combination of categories is not a very successful strategy for
@@ -1252,8 +1253,8 @@ ambiguity in deciding which word of the utterance were responsible for
 communicative failures. 
 
 
-\begin{figure}[p]
-  \rotatebox{90}{\input{figures/sgg-mw-unstructured-trace}}
+\begin{figure}[t]
+  \input{figures/sgg-mw-unstructured-trace}
   \caption{Overview of 15 consecutive interactions from game 1000
     on. It shows the agents that are interacting, the topic chosen by
     the speaker, the conceptualized meaning that was chosen, the
@@ -1286,6 +1287,9 @@ utterance as \texttt{c-13 c-7}. Since interpretation of that meaning
 leads to the same topic \texttt{obj-3513}, speaker and hearer will
 both wrongly increase the scores of both words used, also leaving it
 to later interactions to home in on the correct meanings.
+
+~\\
+
 
 
 \startfiguregroup
@@ -1381,17 +1385,6 @@ combination that has the least unexpressed categories and the highest
 average word score is selected and a new word is invented for the
 remaining uncovered categories.
 
-\begin{figure}[p]
-  \rotatebox{90}{\input{figures/sgg-mw-structured-trace}}
-  \caption{Overview of 20 consecutive interactions in a population of
-    10 agents from game 500 on. It shows the agents that are
-    interacting, the topic chosen by the speaker, the conceptualized
-    meaning that was chosen, the utterance, the meaning parsed by the
-    hearer together with the interpreted topic, and whether the agents
-    reached communicative success.}
-  \label{f:sgg-mw-structured-trace}
-\end{figure}
-
 
 \inparagraph{Adoption} Also similarly to as described in Section
 \ref{s:sgg-mw-unstructured-processing}, a hearer that doesn't know one
@@ -1414,6 +1407,34 @@ holistic meanings that discriminate a topic (as in Section
 \ref{s:sgg-sw-structured}), but now they can be associated to an
 arbitrary set of categories. 
 
+\begin{figure}[p]
+  \rotatebox{90}{\input{figures/sgg-mw-structured-trace}}
+  \caption{Overview of 20 consecutive interactions in a population of
+    10 agents from game 500 on. It shows the agents that are
+    interacting, the topic chosen by the speaker, the conceptualized
+    meaning that was chosen, the utterance, the meaning parsed by the
+    hearer together with the interpreted topic, and whether the agents
+    reached communicative success.}
+  \label{f:sgg-mw-structured-trace}
+\end{figure}
+
+\startfiguregroup
+
+\begin{figure}[ph]
+  \input{figures/sgg-mw-structured-lexicon-meanings-1500}
+  \caption{Forms associated to 3 different meanings by the first four
+    agents of a population of 10 after 1500 interactions.}
+  \label{f:sgg-mw-structured-lexicon-meanings-1500}
+\end{figure}
+
+\begin{figure}[ph]
+  \input{figures/sgg-mw-structured-lexicon-forms-1500}
+  \caption{Meanings associated to 5 different forms by the first four
+    agents of a population of 10 after 1500 interactions.}
+  \label{f:sgg-mw-structured-lexicon-forms-1500}
+\end{figure}
+
+\stopfiguregroup
 
 Consequently, hearers perceiving a novel word need to keep track of a
 large number of alternative hypotheses what the word could mean and
@@ -1440,28 +1461,10 @@ cases such as interaction 507, when at least one of the words of the
 utterance ``pamadu sobowi'' was associated by both agents to the
 meaning \texttt{c-3}.
 
-\startfiguregroup
-
-\begin{figure}[t]
-  \input{figures/sgg-mw-structured-lexicon-meanings-1500}
-  \caption{Forms associated to 3 different meanings by the first four
-    agents of a population of 10 after 1500 interactions.}
-  \label{f:sgg-mw-structured-lexicon-meanings-1500}
-\end{figure}
-
-\begin{figure}[t]
-  \input{figures/sgg-mw-structured-lexicon-forms-1500}
-  \caption{Meanings associated to 5 different forms by the first four
-    agents of a population of 10 after 1500 interactions.}
-  \label{f:sgg-mw-structured-lexicon-forms-1500}
-\end{figure}
-
-\stopfiguregroup
-
 ~\\
 
 
-\noindent This uncertainty is clearly reflected in the lexicons of the
+This uncertainty is clearly reflected in the lexicons of the
 agents. Figure \ref{f:sgg-mw-structured-lexicon-meanings-1500} shows
 an example of the word forms associated to three different meanings by
 four different agents at an early stage of in the evolution of the
@@ -1475,7 +1478,7 @@ example ``fufilo'' is associated by two agents to single categories,
 by the other two to a combinations of two categories -- and non of
 these meanings match.
 
-\begin{figure}[t]
+\begin{figure}[p]
   \includegraphics[width=\textwidth]{figures/sgg-mw-structured-lexicon-500}
   \caption{Network representation of the complete lexicon of the first
     agent in the population after 500 interactions. Each line
@@ -1488,7 +1491,7 @@ these meanings match.
 \startfiguregroup
 
 
-\begin{figure}[t]
+\begin{figure}[p]
   \gnuplotfigure{figures/sgg-mw-structured-word-meaning-scores-gesino}
   \caption{Evolution of words with the form ``gesino'' in the
     population. Each line shows for a single meaning the corresponding
@@ -1611,7 +1614,7 @@ uncovered meaning) and gradually converges to 1.5 at around
 interaction 2000.
 
 
-\begin{measure}[b]{Average utterance length}{m:utterance-length}
+\begin{measure}[t]{Average utterance length}{m:utterance-length}
   Measures the average utterance length, i.e. the number of different
   word forms contained in the utterance produced by the
   speaker. Values are averaged over the last 250 interactions.
@@ -1874,7 +1877,9 @@ counterparts and finally win the competition over them.
 
 
 
-% %%% Local Variables: 
-% %%% mode: latex
-% %%% TeX-master: "phdbook"
-% %%% End: 
+% \subsection{Structure in the world}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "phd-thesis"
+%%% End: 

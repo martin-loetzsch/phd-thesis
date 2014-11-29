@@ -52,7 +52,7 @@ networks are discussed in section \ref{s:gng-dynamics}.
 \label{s:gng-semiotic-networks}
 
 \begin{figure}[t]
-  \centerline{\includegraphics[width=0.85\textwidth]{figures/gng-semiotic-network}}
+  \centerline{\includegraphics[width=0.8\textwidth]{figures/gng-semiotic-network}}
   \caption{A schematic view of part of a single agent's semiotic
     network. Sensory experiences of objects in the current scene are
     matched with prototypes of past experiences based on distance in
@@ -223,8 +223,7 @@ for all features $f_i$:
 \begin{eqnarray*}f_i(v_t) & = & \alpha \cdot f_i(v_{t-1}) + \left(1 - \alpha\right) \cdot f_i(e) \\
   \sigma\left(f_i(v_t)\right) & = & \alpha \cdot
   \left(\sigma\left(f_i(v_{t-1})\right) + \left(f_i(v_t) -
-      f_i(v_{t-1})\right)^2\right) \\
-   & & + \left(1 - \alpha\right) \cdot
+      f_i(v_{t-1})\right)^2\right) + \left(1 - \alpha\right) \cdot
   \left(f_i(e) - f_i(v_t)\right)^2\end{eqnarray*} with $\alpha=0.995$
 being a stability factor, weighting the impact of new experiences.
 Especially in the beginning when not all physical objects have been
