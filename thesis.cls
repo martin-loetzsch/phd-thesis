@@ -21,12 +21,14 @@
 
 \definecolor{linkcolor}{rgb}{0,0,0.6}
 
+\pdfminorversion=4
+\pdfobjcompresslevel=0
+\pdfcompresslevel=0
 
-
-\RequirePackage[final,pdftex,pagebackref,bookmarks=true,linktocpage=false,
+\RequirePackage[final,pdftex,pdfa,pagebackref,bookmarks=true,linktocpage=false,
 colorlinks=true,bookmarksopen=true,bookmarksnumbered=true,citecolor=linkcolor,
 urlcolor=linkcolor,linkcolor=linkcolor,bookmarksopenlevel=1,pdfstartview=FitH,
-pdfdisplaydoctitle=true,pdfpagelayout=TwoPageLeft]{hyperref}
+pdfdisplaydoctitle=true,pdfdisplaydoctitle=true,pdflang=en-US]{hyperref}
 
 \let\oldbackref\backref
 \renewcommand\backref[1]{\hskip2mm\itshape{(\oldbackref{#1})}}
