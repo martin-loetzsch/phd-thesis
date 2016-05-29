@@ -21,9 +21,6 @@
 
 \definecolor{linkcolor}{rgb}{0,0,0.6}
 
-\pdfminorversion=4
-\pdfobjcompresslevel=0
-\pdfcompresslevel=0
 
 \RequirePackage[final,pdftex,pdfa,pagebackref,bookmarks=true,linktocpage=false,
 colorlinks=true,bookmarksopen=true,bookmarksnumbered=true,citecolor=linkcolor,
